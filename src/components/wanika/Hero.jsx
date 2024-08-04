@@ -14,11 +14,11 @@ const Hero = () => {
         className="absolute z-0"
       />
       <div className="absolute top-0 left-0 w-full h-full bg-[#1b4336] opacity-70 z-5"></div>
-      <div className="relative z-10 items-center px-2 pt-8 md:px-8 lg:px-16 xl:max-w-5xl md:max-w-3xl 2xl:max-w-7xl xl:px-52 2xl:px-72">
+      <div className="relative z-10 items-center px-2 pt-8 md:px-8 lg:px-16 xl:max-w-5xl md:max-w-3xl 2xl:max-w-7xl xl:px-52 2xl:px-56">
         <p className="pb-5 text-lg font-bold text-center md:text-base text-custorm-green md:text-left md:text-white">
           YOUR TRUSTED FINANCE PARTNER
         </p>
-        <h1 className="pb-5 text-3xl font-bold text-center text-white md:leading-snug md:text-left md:text-5xl">
+        <h1 className="pb-5 text-3xl font-bold text-center text-white md:leading-snug md:text-left md:text-3xl">
           Exploration and Discovery in African Financial Solutions
         </h1>
         <p className="pb-5 text-lg text-center text-white md:text-base md:text-left">
