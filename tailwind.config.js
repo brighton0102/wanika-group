@@ -7,12 +7,40 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        "custom-Black": "#18051B",
+        "regal-blue": "#425476",
+        "cardinal-pink": "#930873",
+        "san-juan": "#364a6d",
+        "wild-sand": "#F7F7F7",
+        "forest-green": "#65a30d",
+        "custorm-blue": "#030235",
+        "custorm-purple": "#e2e3f9",
+        "custorm-green": "#4aab3d",
+        "dark-green": "#003020",
+        "custorm-gray": "#f5f7f8",
+        "custorm-yellow": "#f7d00b",
+        "turqualse": "#1f948a",
+        "custorm-brown": "#643c05",
+        "light-brown": "#7a673c",
+        "light-green": "#dee765",
+        "custorm-pink": "#ec008c",
+        "sky-blue": "#00aeef",
+        "custorm-light-green": "#9febaa",
+        "dark-blue": "#1f4978",
+        "dark-brown": "#412315",
+        "light-black": "#181b1b",
+        "pine-brown": "#EEE1D5"
+      },
+      width: {
+        w400: "400px",
+        "card-width": "400px",
+      },
+      height: {
+        h450: "450px",
+        "screen-50": "50vh",
       },
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/aspect-ratio")],
 };
