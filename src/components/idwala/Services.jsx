@@ -46,12 +46,12 @@ const cardData = [
 
 const Services = () => {
   return (
-    <section className="px-2 py-24 bg-white md:px-8 lg:px-16 lx:px-52 2xl:px-72">
+    <section className="px-2 py-24 bg-white md:px-8 lg:px-16 lx:px-52 2xl:px-56">
       <div>
-        <p className="pb-5 text-lg font-bold text-center md:text-base text-dark-brown">
+        <p className="pb-5  font-bold text-center text-base text-dark-brown">
           OUR SERVICES
         </p>
-        <h2 className="pb-10 text-4xl font-bold text-center">
+        <h2 className="pb-10 text-2xl md:text-3xl font-bold text-center">
           Services We Offer
         </h2>
       </div>
@@ -67,8 +67,8 @@ const Services = () => {
               />
             </div>
             <div className="p-5">
-              <h3 className="pb-5 text-2xl font-bold">{card.title}</h3>
-              <p className="pb-5 overflow-hidden text-lg md:text-base text-wrap">
+              <h3 className="pb-5 text-xl font-bold">{card.title}</h3>
+              <p className="pb-5 overflow-hidden text-base text-wrap">
                 {card.description}
               </p>
             </div>

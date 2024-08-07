@@ -32,21 +32,21 @@ const cardsData = [
 const Solutions = () => {
   return (
     <>
-      <section className="px-2 py-24 bg-custorm-gray md:px-8 lg:px-16 2xl:px-72 xl:px-52">
+      <section className="px-2 py-24 bg-custorm-gray md:px-8 lg:px-16 2xl:px-56 xl:px-52">
         <div className="items-center md:gap-5 md:grid-cols-2 md:grid">
           <div>
-            <p className="pb-5 text-lg font-bold md:text-base text-custorm-green">WHAT WE OFFER</p>
-            <h2 className="pb-5 text-4xl font-bold text-custorm-black">
+            <p className="pb-5 font-bold text-base text-custorm-green">WHAT WE OFFER</p>
+            <h2 className="pb-5 text-2xl md:text-3xl font-bold text-custorm-black">
               Developing solutions for the future.
             </h2>
           </div>
           <div>
-            <p className="pb-5 text-lg text-gray-500 md:text-base">
+            <p className="pb-5 text-gray-500 text-base">
               At Wanika Investments, we provide a range of financial services tailored to meet diverse needs. Our expertise ensures exceptional quality and reliability.
             </p>
             <Link
               href="/solutions"
-              className="text-lg underline transition-all md:text-base text-custorm-green"
+              className=" underline transition-opacity duration-200 text-base text-custorm-green hover:opacity-75"
             >
               Discover More
             </Link>
@@ -58,11 +58,11 @@ const Solutions = () => {
               <div className="pb-5">
                 <card.icon className="p-2 text-5xl text-white rounded md:text-4xl bg-custorm-green" />
               </div>
-              <h3 className="pb-5 text-2xl font-bold">{card.title}</h3>
-              <p className="pb-5 text-lg md:text-base">
+              <h3 className="pb-5 text-xl font-bold">{card.title}</h3>
+              <p className="pb-5 text-base">
                 {card.description}
               </p>
-              <Link href={card.link} className="text-lg underline md:text-base text-custorm-green">
+              <Link href={card.link} className="underline transition-opacity duration-200 text-base text-custorm-green hover:opacity-75">
                 Learn more
               </Link>
             </div>

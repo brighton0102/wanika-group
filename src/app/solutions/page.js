@@ -25,14 +25,14 @@ const solutions = [
     link: "/solutions-details-event-management",
   },
   {
-    title: "Mergers & Acquisitions",
+    title: "Micro Finance",
     description: "Nunc pede neque etiam tincidunt posuere ut porttitor leo at mattis suscipit",
-    link: "/solutions-details-mergers-acquisitions",
+    link: "/solutions-details-micro-finance",
   },
   {
-    title: "Business Consulting",
+    title: "Secretarial Service",
     description: "Nunc pede neque etiam tincidunt posuere ut porttitor leo at mattis suscipit",
-    link: "/solutions-details-business-consulting",
+    link: "/solutions-details-secretarial-service",
   },
 ];
 
@@ -52,23 +52,23 @@ const Page = ({ fullHeight = false }) => {
           className="absolute z-0"
         />
         <div className="absolute top-0 left-0 w-full h-full bg-[#1b4336] opacity-80 z-5"></div>
-        <div className="relative z-10 items-center px-2 pt-8 md:px-8 lg:px-16 xl:px-52 2xl:px-72">
-          <p className="text-lg text-white md:text-base">Home/solutions</p>
-          <h1 className="text-2xl text-white md:text-4xl">Solutions</h1>
+        <div className="relative z-10 items-center px-2 pt-8 md:px-8 lg:px-16 xl:px-52 2xl:px-56">
+          <p className=" text-white text-base">Home/solutions</p>
+          <h2 className="text-2xl text-white md:text-3xl">Solutions</h2>
         </div>
       </section>
 
       {/* Our Solutions */}
-      <section className="px-2 py-24 bg-custorm-gray md:px-8 lg:px-16 xl:px-52 2xl:px-72">
+      <section className="px-2 py-24 bg-custorm-gray md:px-8 lg:px-16 xl:px-52 2xl:px-56">
         <div className="grid gap-5 md:grid-cols-2 md:items-center">
           <div>
-            <p className="pb-5 text-lg font-bold md:text-base text-custorm-green">WHAT WE OFFER</p>
-            <h2 className="text-4xl font-bold bg-custorm-black">
+            <p className="pb-5 font-bold text-base text-custorm-green">WHAT WE OFFER</p>
+            <h2 className="text-2xl md:text-3xl font-bold bg-custorm-black">
               Developing solutions for the future.
             </h2>
           </div>
           <div>
-            <p className="text-lg text-gray-500 md:text-base">
+            <p className="text-gray-500 text-base">
               Lacus fusce senectus facilisi accumsan vulputate tempus. Eleifend
               suscipit ad posuere velit pede blandit praesent curae eget libero.
               Sollicitudin consectetur elementum id tortor massa lacinia metus
@@ -82,11 +82,11 @@ const Page = ({ fullHeight = false }) => {
               <div className="pb-5">
                 <FiUsers className="p-2 text-5xl text-white rounded md:text-4xl bg-custorm-green" />
               </div>
-              <h3 className="pb-5 text-2xl font-bold">{solution.title}</h3>
-              <p className="pb-5 text-lg md:text-base">
+              <h3 className="pb-5 text-xl font-bold">{solution.title}</h3>
+              <p className="pb-5 text-base">
                 {solution.description}
               </p>
-              <Link href={solution.link} className="text-lg underline md:text-base text-custorm-green">
+              <Link href={solution.link} className=" underline transition-opacity duration-200 text-base text-custorm-green hover:opacity-75">
                 Learn more
               </Link>
             </div>

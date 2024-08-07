@@ -9,8 +9,8 @@ const DiscoverMore = () => {
     >
       <div className="absolute inset-0 bg-[#000000] bg-opacity-50"></div>{" "}
       {/* Overlay */}
-      <div className="absolute inset-0 z-10 flex flex-col items-start justify-center px-2 md:px-8 lg:px-16 xl:px-52 2xl:px-72">
-        <h2 className="text-4xl font-bold text-white lg:max-w-3xl">
+      <div className="absolute inset-0 z-10 flex flex-col items-start justify-center px-2 md:px-8 lg:px-16 xl:px-52 2xl:px-56">
+        <h2 className="text-2xl md:text-3xl font-bold text-white lg:max-w-2xl">
           We will help you unlock investment options that allow you to
           participate in the growth of your wealth.
         </h2>

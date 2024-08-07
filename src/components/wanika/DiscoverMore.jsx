@@ -8,12 +8,12 @@ const DiscoverMore = () => {
         style={{ backgroundImage: `url(${treePic.src})` }}
       >
         <div className="absolute inset-0 bg-[#1b4336] opacity-80"></div> {/* Overlay */}
-        <div className="absolute inset-0 z-10 flex flex-col items-start justify-center px-2 md:px-8 lg:px-16 2xl:px-72 xl:px-52">
-          <div className="max-w-3xl p-4 mx-auto text-center bg-black bg-opacity-50 border border-black rounded-xl">
-            <h2 className="text-4xl font-extrabold text-white md:text-4xl">
+        <div className="absolute inset-0 z-10 flex flex-col items-start justify-center px-2 md:px-8 lg:px-16 2xl:px-56 xl:px-52">
+          <div className="max-w-xl p-4 mx-auto text-center bg-black bg-opacity-50 border border-black rounded-xl">
+            <h2 className="text-2xl font-bold text-white md:text-3xl">
               Think fresh, work faster, grow smarter, save money.
             </h2>
-            <p className="pt-5 text-lg text-white md:text-base">
+            <p className="pt-5  text-white text-base">
               At Wanika Investments, we drive growth through relentless innovation, agility, and value creation. Discover how our financial solutions can help your business thrive.
             </p>
           </div>

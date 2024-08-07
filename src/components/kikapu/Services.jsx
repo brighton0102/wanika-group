@@ -53,9 +53,9 @@ const services = [
 
 const Services = () => {
   return (
-    <section className="px-2 py-24 bg-white md:px-8 lg:px-16 xl:px-52 2xl:px-72">
-      <p className="pb-5 text-lg font-bold text-center md:text-base">OUR SERVICES</p>
-      <h2 className="pb-10 text-4xl font-bold text-center">Services We Offer</h2>
+    <section className="px-2 py-24 bg-white md:px-8 lg:px-16 xl:px-52 2xl:px-56">
+      <p className="pb-5 font-bold text-center text-base">OUR SERVICES</p>
+      <h2 className="pb-10 text-2xl md:text-3xl font-bold text-center">Services We Offer</h2>
       <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
         {services.map((service, index) => (
           <div key={index} className="truncate rounded-lg card bg-pine-brown">
@@ -67,8 +67,8 @@ const Services = () => {
               />
             </div>
             <div className="p-5">
-              <h3 className="pb-5 text-2xl font-bold">{service.title}</h3>
-              <p className="overflow-hidden text-lg md:text-base text-wrap">
+              <h3 className="pb-5 text-xl font-bold">{service.title}</h3>
+              <p className="overflow-hidden text-base text-wrap">
                 {service.description}
               </p>
             </div>

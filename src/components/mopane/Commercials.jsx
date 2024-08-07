@@ -26,14 +26,14 @@ const cardData = [
 
 const Commercials = () => {
   return (
-    <section className="px-2 py-24 md:px-8 lg:px-16 xl:px-52 2xl:px-72">
+    <section className="px-2 py-24 md:px-8 lg:px-16 xl:px-52 2xl:px-56">
       <div className="flex flex-col items-center justify-center gap-5 md:flex-row">
         <div>
-          <p className="pb-5 text-lg font-bold md:text-base text-dark-brown">WHY CHOOSE US</p>
-          <h2 className="pb-5 text-4xl font-semibold">
+          <p className="pb-5 font-bold text-base text-dark-brown">WHY CHOOSE US</p>
+          <h2 className="pb-5 text-2xl md:text-3xl font-bold">
             Unlocking Investment Opportunities Together
           </h2>
-          <p className="text-lg text-gray-500">
+          <p className="text-base text-gray-500">
             Mopane Capital Ventures leverages stakeholder expertise to co-create new enterprises and enhance existing businesses.
           </p>
         </div>
@@ -41,8 +41,8 @@ const Commercials = () => {
           {cardData.map((card, index) => (
             <div key={index} className="p-6 shadow-lg bg-pine-brown rounded-xl transform transition duration-500 ease-in-out hover:translate-y-[-10px]">
               <div className="pb-5">{card.icon}</div>
-              <h3 className="pb-5 text-2xl font-bold">{card.title}</h3>
-              <p className="text-lg md:text-base text-custorm-brown">{card.description}</p>
+              <h3 className="pb-5 text-xl font-bold">{card.title}</h3>
+              <p className="text-base text-custorm-brown">{card.description}</p>
             </div>
           ))}
         </div>

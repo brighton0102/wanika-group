@@ -88,11 +88,11 @@ const page = ({ fullHeight = false }) => {
           className="absolute z-0"
         />
         <div className="absolute top-0 left-0 w-full h-full bg-[#fcc10b] opacity-30 z-5"></div>
-        <div className="relative z-10 items-center px-2 pt-8 md:px-8 lg:px-16 xl:px-52 2xl:px-72">
-          <p className="text-lg text-white md:text-base">
+        <div className="relative z-10 items-center px-2 pt-8 md:px-8 lg:px-16 xl:px-52 2xl:px-56">
+          <p className="text-white text-base">
             sekela-microfinance/about-us
           </p>
-          <h3 className="text-2xl text-white md:text-4xl">About Us</h3>
+          <h2 className="text-2xl text-white md:text-3xl">About Us</h2>
         </div>
       </section>
 
@@ -100,7 +100,7 @@ const page = ({ fullHeight = false }) => {
 
       <section className="py-24 bg-white">
         <div className="flex justify-center ">
-          <div className="grid px-2 md:items-center md:grid-cols-2 md:gap-16 md:px-8 lg:px-16 xl:px-52 2xl:px-72">
+          <div className="grid px-2 md:items-center md:grid-cols-2 md:gap-16 md:px-8 lg:px-16 xl:px-52 2xl:px-56">
             <div className="flex justify-center">
               <Image
                 className="object-cover w-full h-full rounded-lg"
@@ -109,24 +109,24 @@ const page = ({ fullHeight = false }) => {
               />
             </div>
             <div className="md:max-w-2xl">
-              <p className="pt-5 pb-5 text-lg font-bold md:pt-0 md:text-base text-custorm-yellow">
+              <p className="pt-5 pb-5 font-bold md:pt-0 text-base text-custorm-yellow">
                 WHO WE ARE
               </p>
-              <h2 className="pb-5 text-4xl font-bold">
+              <h2 className="pb-5 text-2xl md:text-3xl font-bold">
                 We are the magic behind the company’s best days.
               </h2>
-              <p className="p-4 pb-5 text-lg italic border-l-2 md:text-base bg-custorm-gray border-custorm-yellow text-regal-blue">
+              <p className="p-4 pb-5 italic border-l-2 text-base bg-custorm-gray border-custorm-yellow text-regal-blue">
                 Nulla non faucibus montes netus tristique adipiscing in augue
                 ullamcorper ante finibus.
               </p>
-              <p className="pt-5 pb-5 text-lg text-gray-500 md:text-base">
+              <p className="pt-5 pb-5 text-gray-500 text-base">
                 Massa eu hendrerit netus facilisis cubilia montes curae
                 imperdiet. Laoreet cubilia mattis scelerisque malesuada nulla
                 ipsum mauris. Dui facilisis vel dictumst himenaeos cubilia
                 fringilla congue tempus. Pellentesque nullam nascetur nibh
                 ultricies.
               </p>
-              <p className="pt-5 pb-5 text-lg text-gray-500 md:text-base">
+              <p className="pt-5 pb-5 text-gray-500 text-base">
                 Massa eu hendrerit netus facilisis cubilia montes curae
                 imperdiet. Laoreet cubilia mattis scelerisque malesuada nulla
                 ipsum mauris. Dui facilisis vel dictumst himenaeos cubilia
@@ -144,12 +144,12 @@ const page = ({ fullHeight = false }) => {
 
       {/*Company Values*/}
 
-      <section className="px-2 py-24 bg-white md:px-8 lg:px-16 xl:px-52 2xl:px-72">
+      <section className="px-2 py-24 bg-white md:px-8 lg:px-16 xl:px-52 2xl:px-56">
         <div>
-          <p className="pb-5 text-lg font-bold text-center md:text-base text-custorm-yellow">
+          <p className="pb-5 font-bold text-center text-base text-custorm-yellow">
             OUR VALUES
           </p>
-          <h2 className="pb-10 text-4xl font-bold text-center">
+          <h2 className="pb-10 text-2xl md:text-3xl font-bold text-center">
             We Are Strategic
           </h2>
         </div>
@@ -162,8 +162,8 @@ const page = ({ fullHeight = false }) => {
             >
               <div>{card.icon}</div>
               <div>
-                <h3 className="pb-5 text-2xl font-bold">{card.title}</h3>
-                <p className="text-lg md:text-base">{card.description}</p>
+                <h3 className="pb-5 text-xl font-bold">{card.title}</h3>
+                <p className="text-base">{card.description}</p>
               </div>
             </div>
           ))}

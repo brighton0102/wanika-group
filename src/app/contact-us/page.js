@@ -22,9 +22,9 @@ export default function ContactPage({ fullHeight = false }) {
           className="absolute z-0"
         />
         <div className="absolute top-0 left-0 w-full h-full bg-[#1b4336] opacity-80 z-5"></div>
-        <div className="relative z-10 flex flex-col px-2 pt-8 md:px-8 lg:px-16 xl:px-52 2xl:px-72">
+        <div className="relative z-10 flex flex-col px-2 pt-8 md:px-8 lg:px-16 xl:px-52 2xl:px-56">
           <p className="text-lg text-white md:text-base">Home/contact-us</p>
-          <h2 className="text-2xl text-white md:text-4xl">Contact Us</h2>
+          <h2 className="text-2xl text-white md:text-3xl">Contact Us</h2>
         </div>
       </section>
 

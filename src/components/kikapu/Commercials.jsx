@@ -26,14 +26,14 @@ const services = [
 
 const Commercials = () => {
   return (
-    <section className="px-2 py-24 md:px-8 lg:px-16 xl:px-52 2xl:px-72">
+    <section className="px-2 py-24 md:px-8 lg:px-16 xl:px-52 2xl:px-56">
       <div className="items-center justify-center gap-5 md:flex">
         <div>
           <p className="pb-5 text-lg font-bold md:text-base text-dark-brown">WHY CHOOSE US</p>
-          <h2 className="pb-5 text-4xl font-bold ">
+          <h2 className="pb-5 text-2xl md:text-3xl font-bold ">
             Unlocking Investment Opportunities Together
           </h2>
-          <p className="pb-5 text-lg md:text-base">
+          <p className="pb-5 text-base">
             Euismod venenatis sem penatibus gravida blandit ultrices nulla
             suscipit fringilla nullam tincidunt. Lacus vehicula sagittis
             fringilla sem.
@@ -45,8 +45,8 @@ const Commercials = () => {
               <div className="pb-5">
                 {service.icon}
               </div>
-              <h3 className="pb-5 text-2xl font-bold">{service.title}</h3>
-              <p className="text-lg md:text-base text-custorm-brown">
+              <h3 className="pb-5 text-xl font-bold">{service.title}</h3>
+              <p className="text-base text-custorm-brown">
                 {service.description}
               </p>
             </div>

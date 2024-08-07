@@ -46,7 +46,7 @@ export default function Navbar() {
 
   return (
     <div className="absolute top-0 left-0 z-50 w-full">
-      <div className="flex justify-between w-full px-2 py-5 mx-auto bg-transparent md:px-8 lg:px-16 xl:px-52 2xl:px-72">
+      <div className="flex justify-between w-full px-2 py-5 mx-auto bg-transparent md:px-8 lg:px-16 xl:px-52 2xl:px-56">
         <section className="flex items-center gap-10">
           <p className="text-2xl font-bold text-white">iDesign Websites,</p>
         </section>

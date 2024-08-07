@@ -26,14 +26,14 @@ const cardData = [
 
 const Commercials = () => {
   return (
-    <section className="px-2 py-24 md:px-8 lg:px-16 xl:px-52 2xl:px-72">
+    <section className="px-2 py-24 md:px-8 lg:px-16 xl:px-52 2xl:px-56">
       <div className="md:gap-5 md:justify-center md:items-center md:flex">
         <div>
-          <p className="pb-5 text-lg font-bold md:text-base text-custorm-pink">WHY CHOOSE US</p>
-          <h2 className="pb-5 text-4xl font-bold">
+          <p className="pb-5 font-bold text-base text-custorm-pink">WHY CHOOSE US</p>
+          <h2 className="pb-5 text-2xl md:text-3xl font-bold">
             Unlocking Investment Opportunities Together
           </h2>
-          <p className="pt-5 pb-5 text-lg md:text-base">
+          <p className="pt-5 pb-5 text-base">
             Euismod venenatis sem penatibus gravida blandit ultrices nulla suscipit fringilla nullam tincidunt. Lacus vehicula sagittis fringilla sem.
           </p>
         </div>
@@ -43,8 +43,8 @@ const Commercials = () => {
               <div className="pb-5">
                 {card.icon}
               </div>
-              <h3 className="pb-5 text-2xl font-bold">{card.title}</h3>
-              <p className="text-lg text-gray-500">{card.description}</p>
+              <h3 className="pb-5 text-xl font-bold">{card.title}</h3>
+              <p className="text-base text-gray-500">{card.description}</p>
             </div>
           ))}
         </div>

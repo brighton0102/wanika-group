@@ -27,16 +27,16 @@ const cardData = [
 
 const Solutions = () => {
   return (
-    <section className="px-2 py-24 bg-custorm-gray md:px-8 lg:px-16 xl:px-52 2xl:px-72">
+    <section className="px-2 py-24 bg-custorm-gray md:px-8 lg:px-16 xl:px-52 2xl:px-56">
       <div className="md:justify-between md:items-center md:flex">
         <div>
-          <p className="pb-5 text-lg font-bold md:text-base text-custorm-yellow">OUR SOLUTIONS</p>
-          <h2 className="max-w-xl text-4xl font-bold">
+          <p className="pb-5  font-bold text-base text-custorm-yellow">OUR SOLUTIONS</p>
+          <h2 className="max-w-xl text-2xl md:text-3xl font-bold">
             Solutions that we offer
           </h2>
         </div>
         <div className="pt-10">
-          <Link href='/companies/sekela-microfinance/about-us' className="px-6 py-3 mt-5 text-white transition-all md:text-base bg-custorm-yellow">
+          <Link href='/companies/sekela-microfinance/about-us' className="px-6 py-3 mt-5 text-white transition-all duration-300  hover:bg-custorm-pink hover:scale-105  text-base bg-custorm-yellow">
             Discover More
           </Link>
         </div>
@@ -48,10 +48,10 @@ const Solutions = () => {
             <div className="pb-5">
               {card.icon}
             </div>
-            <h3 className="pb-5 text-2xl font-bold">
+            <h3 className="pb-5 text-xl font-bold">
               {card.title}
             </h3>
-            <p className="text-lg text-gray-500 md:text-base">
+            <p className="text-gray-500 text-base">
               {card.description}
             </p>
           </div>

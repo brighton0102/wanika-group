@@ -20,10 +20,10 @@ const cardData = [
 
 const Commercials = () => {
   return (
-    <section className="px-2 py-24 md:px-8 lg:px-16 xl:px-52 2xl:px-72">
+    <section className="px-2 py-24 md:px-8 lg:px-16 xl:px-52 2xl:px-56">
       <div className="md:gap-8 md:items-center md:flex">
-        <div className="">
-          <h2 className="pb-5 text-4xl font-bold">
+        <div>
+          <h2 className="pb-5 text-2xl md:text-3xl font-bold">
             Trusted Commercial Consulting & Finance Broker
           </h2>
         </div>
@@ -33,10 +33,10 @@ const Commercials = () => {
               <div className="flex items-center justify-center w-16 h-16 bg-white rounded-full">
                 {card.icon}
               </div>
-              <h3 className="pt-5 pb-5 text-2xl font-bold">
+              <h3 className="pt-5 pb-5 text-xl font-bold">
                 {card.title}
               </h3>
-              <p className="text-lg md:text-base">
+              <p className="text-base">
                 {card.description}
               </p>
             </div>

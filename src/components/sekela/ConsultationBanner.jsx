@@ -14,9 +14,9 @@ const ConsultationBanner = () => {
           className="z-0"
         />
         <div className="absolute inset-0 z-10 bg-[#fcc10b] opacity-30"></div>
-        <div className="absolute inset-0 z-20 flex flex-col items-start justify-center px-2 md:px-8 lg:px-16 xl:px-52 2xl:px-72">
-          <div className="max-w-4xl">
-            <h2 className="pb-5 text-4xl font-bold text-white">
+        <div className="absolute inset-0 z-20 flex flex-col items-start justify-center px-2 md:px-8 lg:px-16 xl:px-52 2xl:px-56">
+          <div className="max-w-3xl">
+            <h2 className="pb-5 text-2xl md:text-3xl font-bold text-white">
               Ready to make a difference? Join our fincco project team today!
             </h2>
           </div>

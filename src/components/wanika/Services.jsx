@@ -55,12 +55,12 @@ const servicesData = [
 
 const Services = () => {
   return (
-    <section className="px-2 py-24 md:px-8 lg:px-16 2xl:px-80 xl:px-52 bg-custorm-gray">
+    <section className="px-2 py-24 md:px-8 lg:px-16 2xl:px-56 xl:px-52 bg-custorm-gray">
       <div>
-        <p className="pb-5 text-lg font-bold text-center md:text-base text-custorm-green">
+        <p className="pb-5 font-bold text-center text-base text-custorm-green">
           OUR SERVICES
         </p>
-        <h2 className="pb-10 text-4xl font-bold text-center ">
+        <h2 className="pb-10 text-2xl md:text-3xl font-bold text-center ">
           Services We Offer
         </h2>
       </div>
@@ -76,11 +76,11 @@ const Services = () => {
               />
             </div>
             <div className="p-5">
-              <h3 className="pb-5 text-2xl font-bold">{service.title}</h3>
-              <p className="pb-5 overflow-hidden text-lg md:text-base text-wrap">
+              <h3 className="pb-5 text-xl font-bold">{service.title}</h3>
+              <p className="pb-5 overflow-hidden text-base text-wrap">
                 {service.description}
               </p>
-              <Link href={service.link} className="text-lg underline transition-all md:text-base text-custorm-green">
+              <Link href={service.link} className="underline transition-opacity duration-200 text-base text-custorm-green hover:opacity-75">
                 Learn More
               </Link>
             </div>

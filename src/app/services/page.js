@@ -1,8 +1,14 @@
 import Image from "next/image";
 import medienSturmer from "@/assets/images/mediensturmer.jpg";
-import Services from "@/components/wanika/Services";
+import ServicesComponent from "@/components/wanika/Services"; // Renamed import
 
-const Page = ({ fullHeight = false }) => {
+export const metadata = {
+  title: {
+    default: "Services",
+  },
+};
+
+const AboutServices = ({ fullHeight = false }) => {
   return (
     <>
       <section
@@ -18,18 +24,18 @@ const Page = ({ fullHeight = false }) => {
           className="absolute z-0"
         />
         <div className="absolute top-0 left-0 w-full h-full bg-[#1b4336] opacity-70 z-5"></div>
-        <div className="relative z-10 items-center px-2 pt-8 md:px-8 lg:px-16 xl:px-52 2xl:px-72">
-          <p className="text-lg text-white md:text-base">Home/services</p>
-          <h3 className="text-2xl text-white md:text-4xl">Services</h3>
+        <div className="relative z-10 items-center px-2 pt-8 md:px-8 lg:px-16 xl:px-52 2xl:px-56">
+          <p className=" text-white text-base">Home/services</p>
+          <h2 className="text-2xl text-white md:text-3xl">Services</h2>
         </div>
       </section>
 
       {/*services*/}
 
-      <Services />
+      <ServicesComponent /> {/* Use renamed import */}
 
     </>
   );
 };
 
-export default Page;
+export default AboutServices;

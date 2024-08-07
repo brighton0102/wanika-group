@@ -28,12 +28,12 @@ const cardData = [
 
 const Commercials = () => {
   return (
-    <section className="px-2 py-24 md:px-8 bg-custorm-gray lg:px-16 xl:px-52 2xl:px-72">
+    <section className="px-2 py-24 md:px-8 bg-custorm-gray lg:px-16 xl:px-52 2xl:px-56">
       <div className="flex flex-col items-center justify-center gap-5 mx-auto md:flex-row">
         <div>
-          <p className="pb-5 text-lg font-bold md:text-base text-dark-blue">WHY CHOOSE US</p>
-          <h3 className="pb-5 text-4xl font-bold">Unlocking Investment Opportunities Together</h3>
-          <p className="text-lg text-gray-500 md:text-base">
+          <p className="pb-5  font-bold text-base text-dark-blue">WHY CHOOSE US</p>
+          <h2 className="pb-5 text-2xl md:text-3xl font-bold">Unlocking Investment Opportunities Together</h2>
+          <p className=" text-gray-500 text-base">
             Euismod venenatis sem penatibus gravida blandit ultrices nulla suscipit fringilla nullam tincidunt.
             Lacus vehicula sagittis fringilla sem.
           </p>
@@ -44,8 +44,8 @@ const Commercials = () => {
               <div className="pb-5">
                 <card.icon className="p-2 text-5xl text-white rounded md:text-4xl bg-dark-blue" />
               </div>
-              <h3 className="pb-5 text-2xl font-bold">{card.title}</h3>
-              <p className="text-lg md:text-base">{card.description}</p>
+              <h3 className="pb-5 text-xl font-bold">{card.title}</h3>
+              <p className="text-base">{card.description}</p>
             </div>
           ))}
         </div>
