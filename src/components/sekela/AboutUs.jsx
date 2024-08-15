@@ -5,43 +5,37 @@ import Link from "next/link";
 const AboutUs = () => {
   return (
     <section className="py-24 bg-white">
-    <div className="flex justify-center ">
-      <div className="grid items-center px-2 md:gap-16 md:grid-cols-2 md:px-8 lg:px-16 xl:px-52 2xl:px-56">
-        <div className="flex justify-center">
-          <Image
-            className="object-cover w-full h-full rounded-lg"
-            src={sekela}
-            alt="smiling face"
-          />
-        </div>
-        <div className="md:max-w-2xl">
-          <p className="pt-5 pb-5 font-bold md:pt-0 text-base text-custorm-yellow">WHO WE ARE</p>
-          <h2 className="pb-5 text-2xl md:text-3xl font-bold">
-            We are the magic behind the company’s best days.
-          </h2>
-          <p className="p-4 pb-5  italic border-l-2 text-base bg-custorm-gray border-custorm-yellow text-regal-blue">
-            Nulla non faucibus montes netus tristique adipiscing in augue
-            ullamcorper ante finibus.
-          </p>
-          <p className="pt-5 pb-5 text-gray-500 text-base">
-            Massa eu hendrerit netus facilisis cubilia montes curae
-            imperdiet. Laoreet cubilia mattis scelerisque malesuada nulla
-            ipsum mauris. Dui facilisis vel dictumst himenaeos cubilia
-            fringilla congue tempus. Pellentesque nullam nascetur nibh
-            ultricies.
-          </p>
-          <Link
-            href="/companies/sekela-microfinance/about-us"
-            className=" underline transition-opacity duration-200 text-base  hover:opacity-75 text-custorm-yellow"
-          >
-            {" "}
-            Discover More
-          </Link>
+      <div className="flex justify-center">
+        <div className="grid items-center px-2 md:gap-16 md:grid-cols-2 md:px-8 lg:px-16 xl:px-52 2xl:px-56">
+          <div className="flex justify-center">
+            <Image
+              className="object-cover w-full h-full rounded-lg"
+              src={sekela}
+              alt="Sekela Microfinance"
+            />
+          </div>
+          <div className="md:max-w-2xl">
+            <p className="pt-5 pb-5 text-base font-bold md:pt-0 text-custorm-yellow">WHO WE ARE</p>
+            <h2 className="pb-5 text-2xl font-bold md:text-3xl">
+              Empowering Financial Inclusion and Growth
+            </h2>
+            <p className="p-4 pb-5 text-base italic border-l-2 bg-custorm-gray border-custorm-yellow text-regal-blue">
+              Sekela Microfinance: Building strong foundations for Africa&apos;s dreams.
+            </p>
+            <p className="pt-5 pb-5 text-base text-gray-500">
+              Sekela Microfinance is a premier institution in Zimbabwe, committed to promoting financial inclusion and sustainable growth. We offer tailored microloans, savings, and insurance services to empower entrepreneurs and small businesses. Our focus on responsible lending and financial education helps clients build a strong foundation for their ventures.
+            </p>
+            <Link
+              href="/companies/sekela-microfinance/about-us"
+              className="text-base underline transition-opacity duration-200 hover:opacity-75 text-custorm-yellow"
+            >
+              Discover More
+            </Link>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
   )
 }
 
-export default AboutUs
+export default AboutUs;

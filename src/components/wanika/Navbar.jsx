@@ -1,6 +1,8 @@
 "use client";
 
+import Image from "next/image";
 import { useState } from "react";
+import logo from "@/assets/images/logo.png";
 import { IoIosArrowDown } from "react-icons/io";
 import { FiMenu } from "react-icons/fi";
 import { AiOutlineClose } from "react-icons/ai";
@@ -14,17 +16,11 @@ const navItems = [
     link: "/services",
     children: [
       { label: "Mopane Capital", link: "/companies/mopane-capital" },
-      {
-        label: "Idwala Asset Management",
-        link: "/companies/idwala-asset-management",
-      },
+      { label: "Idwala Asset Management", link: "/companies/idwala-asset-management" },
       { label: "Watata Commodities", link: "/companies/watata-commodities" },
       { label: "Sekela Microfinance", link: "/companies/sekela-microfinance" },
       { label: "Kikapu Financial Services", link: "/companies/kikapu-finance" },
-      {
-        label: "Naka Event Management",
-        link: "/companies/naka-event-management",
-      },
+      { label: "Naka Event Management", link: "/companies/naka-event-management" },
     ],
   },
   { label: "Services", link: "/services" },
@@ -45,10 +41,16 @@ export default function Navbar() {
   }
 
   return (
-    <div className="absolute top-0 left-0 z-50 w-full">
-      <div className="flex justify-between w-full px-2 py-5 mx-auto bg-transparent md:px-8 lg:px-16 xl:px-52 2xl:px-56">
-        <section className="flex items-center gap-10">
-          <p className="text-2xl font-bold text-white">iDesign Websites,</p>
+    <div className="absolute top-0 left-0 z-50 w-full ">
+      <div className="flex items-center justify-between w-full px-4 py-3 mx-auto bg-transparent md:px-8 lg:px-16 xl:px-52 2xl:px-56">
+        <section className="flex items-center">
+          <Image
+            src={logo}
+            alt="Website logo"
+            width={120}
+            height={40}
+            className="object-contain"
+          />
         </section>
 
         {isSideMenuOpen && <MobileNav closeSideMenu={closeSideMenu} />}
@@ -58,7 +60,7 @@ export default function Navbar() {
               <Link
                 href={data.link ?? "#"}
                 className="relative px-2 py-3 transition"
-                onClick={closeSideMenu}
+                onClick={() => closeSideMenu()}
               >
                 <p className="flex items-center gap-2 text-lg text-white cursor-pointer md:text-base group-hover:text-custorm-green">
                   <span>{data.label}</span>
@@ -117,10 +119,16 @@ function MobileNav({ closeSideMenu }) {
           {navItems.map((data, index) => (
             <div key={index} className="relative group">
               <div
-                onClick={() => toggleItem(index)}
+                onClick={() => {
+                  if (data.children) {
+                    toggleItem(index);
+                  } else {
+                    closeSideMenu(); // Close the side menu before navigating
+                  }
+                }}
                 className="relative px-2 py-3 transition cursor-pointer"
               >
-                <p className="flex gap-2 text-lg items- text-neutral-400 group-hover:text-black">
+                <p className="flex items-center gap-2 text-lg text-neutral-400 group-hover:text-black">
                   <span>{data.label}</span>
                   {data.children && (
                     <IoIosArrowDown
@@ -155,7 +163,7 @@ function SingleNavItem({ child, closeSideMenu }) {
     <Link
       href={child.link ?? "#"}
       className="flex items-center px-4 py-2 text-lg text-gray-800 cursor-pointer md:text-base hover:bg-gray-100"
-      onClick={closeSideMenu}
+      onClick={() => closeSideMenu()}
     >
       <span className="whitespace-nowrap">{child.label}</span>
     </Link>

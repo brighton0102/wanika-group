@@ -8,46 +8,46 @@ import sekela03 from "@/assets/images/sekela03.jpg";
 
 const cardData = [
   {
-    src: smile02,
-    alt: "trading",
-    title: "Project Finance",
-    description:
-      "Felis ligula pulvinar quam a mattis vitae litora. Feugiat praesent si felis lobortis magna et consectetur convallis ultricies adipiscing.",
-  },
-  {
     src: sekela02,
-    alt: "trading",
-    title: "Investment Consulting",
+    alt: "microloans",
+    title: "Microloans",
     description:
-      "Felis ligula pulvinar quam a mattis vitae litora. Feugiat praesent si felis lobortis magna et consectetur convallis ultricies adipiscing.",
+      "Empowering entrepreneurs and small businesses with tailored microloans to promote financial inclusion and sustainable growth.",
   },
   {
     src: sekela03,
-    alt: "trading",
-    title: "International Financing",
+    alt: "savings-accounts",
+    title: "Savings Accounts",
     description:
-      "Felis ligula pulvinar quam a mattis vitae litora. Feugiat praesent si felis lobortis magna et consectetur convallis ultricies adipiscing.",
+      "Offering customized savings solutions designed to help individuals and businesses achieve financial stability and growth.",
   },
   {
     src: sekela07,
-    alt: "capital-Raising",
-    title: "Residential Property",
+    alt: "insurance-services",
+    title: "Insurance Services",
     description:
-      "Felis ligula pulvinar quam a mattis vitae litora. Feugiat praesent si felis lobortis magna et consectetur convallis ultricies adipiscing.",
+      "Providing comprehensive insurance products to ensure clients' financial security and peace of mind.",
   },
   {
     src: sekela05,
-    alt: "event-management",
-    title: "Lending and Financing",
+    alt: "financial-education",
+    title: "Financial Education",
     description:
-      "Felis ligula pulvinar quam a mattis vitae litora. Feugiat praesent si felis lobortis magna et consectetur convallis ultricies adipiscing.",
+      "Delivering financial education and guidance to foster responsible lending practices and ensure sustainable ventures.",
   },
   {
     src: sekela06,
-    alt: "secretarial-Service",
-    title: "Financing and Construction",
+    alt: "community-engagement",
+    title: "Community Engagement",
     description:
-      "Felis ligula pulvinar quam a mattis vitae litora. Feugiat praesent si felis lobortis magna et consectetur convallis ultricies adipiscing.",
+      "Engaging with local communities and NGOs to drive holistic socio-economic development through collaborative initiatives.",
+  },
+  {
+    src: smile02,
+    alt: "womens-empowerment",
+    title: "Women's Empowerment",
+    description:
+      "Specialized loan products and support programs aimed at promoting gender equality and inclusive economic growth.",
   },
 ];
 
@@ -55,11 +55,11 @@ const Services = () => {
   return (
     <section className="px-2 py-24 md:px-8 lg:px-16 xl:px-52 2xl:px-56">
       <div className="">
-        <p className="pb-5 font-bold text-center text-base text-custorm-yellow">
+        <p className="pb-5 text-base font-bold text-center text-custorm-yellow">
           OUR SERVICES
         </p>
-        <h2 className="pb-10 text-2xl md:text-3xl font-bold text-center">
-          Services we offer
+        <h2 className="pb-10 text-2xl font-bold text-center md:text-3xl">
+          Services We Offer
         </h2>
       </div>
       <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">

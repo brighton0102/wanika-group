@@ -15,11 +15,11 @@ const ConsultationBanner = () => {
         />
         <div className="absolute inset-0 z-10 flex flex-col items-start justify-center px-2 bg-black bg-opacity-25 md:px-8 lg:px-16 xl:px-52 2xl:px-56">
           <div className="max-w-xl">
-            <h2 className="pb-5 text-2xl md:text-3xl font-bold text-white">
-              Ready to elevate your business? Partner with Mopane Capital today!
+            <h2 className="pb-5 text-2xl font-bold text-white md:text-3xl">
+              Unlock High-Impact Investments with Mopane Capital
             </h2>
-            <p className=" text-white text-base">
-              Join us in transforming opportunities into sustainable growth. Our expert team is here to guide you through strategic financial solutions tailored to your needs.
+            <p className="text-base text-white">
+              Partner with us to access tailored capital raising and structured finance solutions. Our expert team connects you with top investors and ensures meticulous project selection for sustainable growth.
             </p>
           </div>
         </div>

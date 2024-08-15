@@ -4,23 +4,23 @@ import { FiUsers } from "react-icons/fi";
 const services = [
   {
     icon: <SlChart className="p-2 text-5xl text-white rounded md:text-4xl bg-dark-brown" />,
-    title: "Global Wealth Management",
-    description: "Nunc pede neque etiam tincidunt posuere ut porttitor leo at mattis suscipit",
+    title: "Corporate Governance",
+    description: "Expertly managing company registration, statutory records, and annual filings to ensure compliance and precision in corporate governance.",
   },
   {
     icon: <SlDiamond className="p-2 text-5xl text-white rounded md:text-4xl bg-dark-brown" />,
-    title: "Exclusive Investment Solutions",
-    description: "Nunc pede neque etiam tincidunt posuere ut porttitor leo at mattis suscipit",
+    title: "Company Compliance",
+    description: "Providing comprehensive solutions for regulatory adherence, helping businesses navigate legal frameworks and minimize compliance risks.",
   },
   {
     icon: <SlGlobe className="p-2 text-5xl text-white rounded md:text-4xl bg-dark-brown" />,
-    title: "Worldwide Financial Planning",
-    description: "Nunc pede neque etiam tincidunt posuere ut porttitor leo at mattis suscipit",
+    title: "Regulatory Adherence",
+    description: "Ensuring clients meet all regulatory requirements with our thorough and precise approach to company secretarial processes.",
   },
   {
     icon: <FiUsers className="p-2 text-5xl text-white rounded md:text-4xl bg-dark-brown" />,
-    title: "Personalized Advisory Services",
-    description: "Nunc pede neque etiam tincidunt posuere ut porttitor leo at mattis suscipit",
+    title: "Tailored Secretarial Support",
+    description: "Delivering clarity and precision in advisory and secretarial services, supporting businesses for sustainable growth and prosperity.",
   },
 ];
 
@@ -30,13 +30,11 @@ const Commercials = () => {
       <div className="items-center justify-center gap-5 md:flex">
         <div>
           <p className="pb-5 text-lg font-bold md:text-base text-dark-brown">WHY CHOOSE US</p>
-          <h2 className="pb-5 text-2xl md:text-3xl font-bold ">
-            Unlocking Investment Opportunities Together
+          <h2 className="pb-5 text-2xl font-bold md:text-3xl">
+            Innovative Secretarial Solutions for Your Business
           </h2>
           <p className="pb-5 text-base">
-            Euismod venenatis sem penatibus gravida blandit ultrices nulla
-            suscipit fringilla nullam tincidunt. Lacus vehicula sagittis
-            fringilla sem.
+            Kikapu Financial Services provides leading secretarial solutions to enhance corporate governance, ensure compliance, and streamline regulatory processes. Partner with us to optimize efficiency and drive growth.
           </p>
         </div>
         <div className="grid gap-5 md:grid-cols-2">

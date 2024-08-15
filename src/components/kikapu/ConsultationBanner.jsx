@@ -7,21 +7,16 @@ const ConsultationBanner = () => {
       <div className="relative top-0 w-full h-full">
         <Image
           src={kikapu04}
-          alt="Banner Image"
+          alt="Kikapu Financial Services Banner"
           layout="fill"
           objectFit="cover"
           priority
         />
         <div className="absolute inset-0 z-10 flex flex-col items-start justify-center px-2 bg-black bg-opacity-50 md:px-8 lg:px-16 xl:px-52 2xl:px-56">
           <div className="max-w-xl">
-            <h2 className="pb-5 text-2xl md:text-3xl font-bold text-white">
-              Ready to make a difference? Join our fincco project team today!
+            <h2 className="pb-5 text-2xl font-bold text-white md:text-3xl">
+              Elevate Your Business with Expert Secretarial Solutions
             </h2>
-            <p className="text-white text-base">
-              Egestas rutrum sollicitudin vehicula nam justo erat non
-              convallis parturient purus inceptos. Per consectetuer facilisis
-              lacus conubia luctus.
-            </p>
           </div>
         </div>
       </div>

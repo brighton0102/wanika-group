@@ -15,11 +15,11 @@ const ConsultationBanner = () => {
         />
         <div className="absolute inset-0 z-10 flex flex-col items-start justify-center px-2 bg-black bg-opacity-50 md:px-8 lg:px-16 xl:px-52 2xl:px-56">
           <div className="max-w-lg">
-            <h2 className="pb-5 text-2xl md:text-3xl font-bold text-white">
-              Partner with Idwala Asset Management Today!
+            <h2 className="pb-5 text-2xl font-bold text-white md:text-3xl">
+              Build Wealth with Idwala Asset Management
             </h2>
-            <p className="text-white text-base">
-              Join us in crafting sustainable wealth and making a positive impact through innovative financial solutions and dedicated service.
+            <p className="text-base text-white">
+              Partner with us for personalized investment solutions and expert wealth management. Strengthen your financial future with our disciplined approach and proven strategies.
             </p>
           </div>
         </div>

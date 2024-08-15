@@ -17,20 +17,19 @@ const AboutUs = () => {
             />
           </div>
           <div className="md:max-w-2xl">
-            <p className="pt-5 pb-5 font-bold md:pt-0 text-base text-dark-brown">WHO WE ARE</p>
+            <p className="pt-5 pb-5 text-base font-bold md:pt-0 text-dark-brown">WHO WE ARE</p>
             <h2 className="pb-5 text-2xl font-bold text-custorm-black">
-              Empowering Businesses with Resilient Financial Solutions
+              Capital Raising Experts with Global Reach
             </h2>
-            <p className="p-4 pb-5  italic border-l-4 text-base bg-pine-brown border-dark-brown text-custorm-black">
-              At Mopane Capital, we specialize in capital raising and structured finance solutions, leveraging expertise and strategic.
+            <p className="p-4 pb-5 text-base italic border-l-4 bg-pine-brown border-dark-brown text-custorm-black">
+              Specializing in capital raising and structured finance, we connect investors with high-return opportunities in Africa’s dynamic sectors.
             </p>
             <p className="pt-5 pb-5 text-lg text-gray-500 md:text-base">
-              Our team of experienced professionals collaborates with high net-worth individuals and institutional investors to secure funding for businesses across various sectors.
+              Partnering with Mopane Consultancy Services, we provide comprehensive due diligence, risk management, and legal structuring to enhance our capital raising efforts.
             </p>
-
             <Link
               href="/companies/mopane-capital/about-us"
-              className="underline transition-opacity duration-200 text-base  hover:opacity-75 text-dark-brown"
+              className="text-base underline transition-opacity duration-200 hover:opacity-75 text-dark-brown"
             >
               Learn More
             </Link>

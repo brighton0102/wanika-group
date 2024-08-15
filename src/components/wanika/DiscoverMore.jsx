@@ -13,8 +13,8 @@ const DiscoverMore = () => {
             <h2 className="text-2xl font-bold text-white md:text-3xl">
               Think fresh, work faster, grow smarter, save money.
             </h2>
-            <p className="pt-5  text-white text-base">
-              At Wanika Investments, we drive growth through relentless innovation, agility, and value creation. Discover how our financial solutions can help your business thrive.
+            <p className="pt-5 text-base text-white">
+              At Wanika Group, we drive growth through relentless innovation, agility, and value creation. Discover how our financial solutions can help your business thrive.
             </p>
           </div>
         </div>

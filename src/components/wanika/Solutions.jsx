@@ -6,27 +6,30 @@ const cardsData = [
   {
     icon: FiUsers,
     title: "Capital Raising",
-    description: "Expertise in capital raising to help businesses secure the funds they need for growth.",
+    description: "Capital raising expertise, connecting businesses with private equity and venture capital funding.",
     link: "/solutions-details-capital-raising"
-  },
+  },  
   {
     icon: SlGlobe,
     title: "Asset Management",
-    description: "Providing top-notch asset management services for financial growth and security.",
+    description: "Tailored investment solutions and wealth management strategies with a focus on strength, resilience, and financial growth.",
     link: "/solutions-details-asset-management"
   },
+  
   {
     icon: SlChart,
     title: "Commodity Trading",
-    description: "Specializing in international commodity financing, trading, and supply chain management.",
+    description: "Leading international trade in bulk grains and minerals, ensuring quality and reliability in sourcing and distribution.",
     link: "/solutions-details-commodity-trading"
   },
+  
   {
     icon: SlDiamond,
     title: "Event Management",
-    description: "Offering professional corporate events management and company secretarial services.",
+    description: "Creating tailored, memorable events with expert logistics, production, and marketing for a flawless experience.",
     link: "/solutions-details-event-management"
   }
+  
 ];
 
 const Solutions = () => {
@@ -35,18 +38,18 @@ const Solutions = () => {
       <section className="px-2 py-24 bg-custorm-gray md:px-8 lg:px-16 2xl:px-56 xl:px-52">
         <div className="items-center md:gap-5 md:grid-cols-2 md:grid">
           <div>
-            <p className="pb-5 font-bold text-base text-custorm-green">WHAT WE OFFER</p>
-            <h2 className="pb-5 text-2xl md:text-3xl font-bold text-custorm-black">
+            <p className="pb-5 text-base font-bold text-custorm-green">WHAT WE OFFER</p>
+            <h2 className="pb-5 text-2xl font-bold md:text-3xl text-custorm-black">
               Developing solutions for the future.
             </h2>
           </div>
           <div>
-            <p className="pb-5 text-gray-500 text-base">
-              At Wanika Investments, we provide a range of financial services tailored to meet diverse needs. Our expertise ensures exceptional quality and reliability.
+            <p className="pb-5 text-base text-gray-500">
+              At Wanika Group, we provide a range of financial services tailored to meet diverse needs. Our expertise ensures exceptional quality and reliability.
             </p>
             <Link
               href="/solutions"
-              className=" underline transition-opacity duration-200 text-base text-custorm-green hover:opacity-75"
+              className="text-base underline transition-opacity duration-200 text-custorm-green hover:opacity-75"
             >
               Discover More
             </Link>
@@ -62,7 +65,7 @@ const Solutions = () => {
               <p className="pb-5 text-base">
                 {card.description}
               </p>
-              <Link href={card.link} className="underline transition-opacity duration-200 text-base text-custorm-green hover:opacity-75">
+              <Link href={card.link} className="text-base underline transition-opacity duration-200 text-custorm-green hover:opacity-75">
                 Learn more
               </Link>
             </div>

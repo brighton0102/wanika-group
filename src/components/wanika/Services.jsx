@@ -9,47 +9,53 @@ import rob from "@/assets/images/rob.jpg";
 
 const servicesData = [
   {
-    src: treePic,
-    alt: "consultancy",
-    title: "Mopane Consultancy Services",
-    description: "Specializes in co-creating new enterprises and enhancing the value creation, resilience, and long-term sustenance of existing businesses.",
-    link: "/companies/mopane-consultancy"
+    "src": treePic,
+    "alt": "consultancy",
+    "title": "Mopane Consultancy Services",
+    "description": "Experts in structured finance and value-based consultancy, co-creating tailored solutions to enhance business resilience and long-term sustainability.",
+    "link": "/companies/mopane-consultancy"
   },
+  
   {
-    src: springWaters,
-    alt: "trading",
-    title: "Watata Commodities",
-    description: "Renowned for international trade focusing on bulk grain importation and bulk mineral exports, with a strong emphasis on maize, wheat, soya, and ammonium nitrate.",
-    link: "/companies/watata-commodities"
+    "src": springWaters,
+    "alt": "trading",
+    "title": "Watata Commodities",
+    "description": "Leaders in international trade, specializing in bulk grain imports and mineral exports, including maize, wheat, soya, coking coal, lithium, and chrome.",
+    "link": "/companies/watata-commodities"
   },
+  
   {
-    src: kikapu06,
-    alt: "capital-Raising",
-    title: "Kikapu Financial Services",
-    description: "Provides expert advisory, secretarial, and regulatory support for businesses, ensuring compliance and optimizing organizational efficiency.",
-    link: "/companies/kikapu-finance"
+    "src": kikapu06,
+    "alt": "capital-Raising",
+    "title": "Kikapu Financial Services",
+    "description": "Leading provider of secretarial services, ensuring corporate compliance, governance, and efficient company administration.",
+    "link": "/companies/kikapu-finance"
   },
+  
   {
-    src: sekela,
-    alt: "event-management",
-    title: "Sekela Micro Finance",
-    description: "A leading microfinance institution in Zimbabwe, committed to financial inclusion and driving sustainable economic growth through microloans, savings accounts, and insurance services.",
-    link: "/companies/sekela-microfinance"
+    "src": sekela,
+    "alt": "microfinance",
+    "title": "Sekela Microfinance",
+    "description": "Empowering Zimbabwe's unbanked with microloans, savings, and insurance, driving financial inclusion and sustainable growth.",
+    "link": "/companies/sekela-microfinance"
   },
+  
   {
-    src: rob,
-    alt: "asset-management",
-    title: "Idwala Asset Management",
-    description: "Offers a comprehensive suite of asset management services, focusing on sustainable wealth creation, infrastructure development, and alignment with UN Sustainable Development Goals.",
-    link: "/companies/idwala-asset-management"
+    "src": rob,
+    "alt": "asset-management",
+    "title": "Idwala Asset Management",
+    "description": "Boutique asset management firm offering tailored investment solutions and wealth management strategies to help clients achieve financial success.",
+    "link": "/companies/idwala-asset-management"
   },
+  
   {
-    src: eventDeco,
-    alt: "event-management",
-    title: "Naka Event Management",
-    description: "Specializes in event planning and execution, creating unforgettable experiences through meticulous planning, flawless execution, and innovative design.",
-    link: "/companies/naka-event-management"
+    "src": eventDeco,
+    "alt": "event-management",
+    "title": "Naka Event Management",
+    "description": "Experts in event planning and production, crafting unforgettable experiences through meticulous design, flawless execution, and innovative promotion.",
+    "link": "/companies/naka-event-management"
   }
+  
 
 ];
 
@@ -57,10 +63,10 @@ const Services = () => {
   return (
     <section className="px-2 py-24 md:px-8 lg:px-16 2xl:px-56 xl:px-52 bg-custorm-gray">
       <div>
-        <p className="pb-5 font-bold text-center text-base text-custorm-green">
+        <p className="pb-5 text-base font-bold text-center text-custorm-green">
           OUR SERVICES
         </p>
-        <h2 className="pb-10 text-2xl md:text-3xl font-bold text-center ">
+        <h2 className="pb-10 text-2xl font-bold text-center md:text-3xl ">
           Services We Offer
         </h2>
       </div>
@@ -80,7 +86,7 @@ const Services = () => {
               <p className="pb-5 overflow-hidden text-base text-wrap">
                 {service.description}
               </p>
-              <Link href={service.link} className="underline transition-opacity duration-200 text-base text-custorm-green hover:opacity-75">
+              <Link href={service.link} className="text-base underline transition-opacity duration-200 text-custorm-green hover:opacity-75">
                 Learn More
               </Link>
             </div>

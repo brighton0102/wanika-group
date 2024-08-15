@@ -8,40 +8,40 @@ const cardData = [
     icon: (
       <FiUsers className="p-2 text-5xl text-white rounded md:text-4xl bg-dark-brown" />
     ),
-    title: "Money Market Investments",
+    title: "Customized Portfolio Management",
     description:
-      "Secure and high-yield investment options in money markets to grow your wealth efficiently.",
+      "Tailored portfolio strategies to optimize investment returns and align with your financial goals.",
   },
   {
     icon: (
       <SlGlobe className="p-2 text-5xl text-white rounded md:text-4xl bg-dark-brown" />
     ),
-    title: "Equity Investments",
+    title: "Tailored Financial Planning",
     description:
-      "Invest in high-potential equities with expert guidance to maximize returns.",
+      "Personalized financial planning to help you navigate global markets and achieve long-term success.",
   },
   {
     icon: (
       <SlChart className="p-2 text-5xl text-white rounded md:text-4xl bg-dark-brown" />
     ),
-    title: "Structured Finance",
+    title: "Advanced Risk Management",
     description:
-      "Innovative financial solutions tailored to meet complex funding requirements.",
+      "Comprehensive risk management solutions to minimize exposure and enhance financial stability.",
   },
   {
     icon: (
       <SlDiamond className="p-2 text-5xl text-white rounded md:text-4xl bg-dark-brown" />
     ),
-    title: "Infrastructure Development",
+    title: "Strategic Investment Solutions",
     description:
-      "Comprehensive infrastructure development services to support sustainable growth.",
+      "Innovative strategies for navigating global markets and maximizing investment potential.",
   },
 ];
 
 const Solutions = () => {
   return (
     <section className="px-2 py-24 bg-custorm-gray md:px-8 lg:px-16 xl:px-52 2xl:px-56">
-      <h2 className="max-w-xl text-2xl mx-auto md:text-3xl font-bold text-center">
+      <h2 className="max-w-xl mx-auto text-2xl font-bold text-center md:text-3xl">
         Comprehensive Wealth Management Solutions
       </h2>
       <div className="grid gap-5 pt-10 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">

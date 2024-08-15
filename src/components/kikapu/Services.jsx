@@ -12,50 +12,50 @@ const services = [
     alt: "Project Finance",
     title: "Project Finance",
     description:
-      "Felis ligula pulvinar quam a mattis vitae litora. Feugiat praesent si felis lobortis magna et consectetur convallis ultricies adipiscing.",
+      "Expertly managing company registration, statutory record maintenance, and annual return filings to ensure compliance and operational efficiency.",
   },
   {
     src: kikapu07,
-    alt: "Investment consulting",
-    title: "Investment consulting",
+    alt: "Investment Consulting",
+    title: "Investment Consulting",
     description:
-      "Felis ligula pulvinar quam a mattis vitae litora. Feugiat praesent si felis lobortis magna et consectetur convallis ultricies adipiscing.",
+      "Providing strategic guidance on investment opportunities to drive sustainable growth and optimize financial outcomes for your business.",
   },
   {
     src: kikapu04,
-    alt: "International financing",
-    title: "International financing",
+    alt: "International Financing",
+    title: "International Financing",
     description:
-      "Felis ligula pulvinar quam a mattis vitae litora. Feugiat praesent si felis lobortis magna et consectetur convallis ultricies adipiscing.",
+      "Offering solutions for seamless international financial operations, ensuring regulatory adherence and smooth cross-border transactions.",
   },
   {
     src: kikapu05,
-    alt: "Residential property",
-    title: "Residential property",
+    alt: "Residential Property",
+    title: "Residential Property",
     description:
-      "Felis ligula pulvinar quam a mattis vitae litora. Feugiat praesent si felis lobortis magna et consectetur convallis ultricies adipiscing.",
+      "Supporting the management and compliance aspects of residential property investments, enhancing operational efficiency and regulatory compliance.",
   },
   {
     src: kikapu08,
-    alt: "Lending and financing",
-    title: "Lending and financing",
+    alt: "Lending and Financing",
+    title: "Lending and Financing",
     description:
-      "Felis ligula pulvinar quam a mattis vitae litora. Feugiat praesent si felis lobortis magna et consectetur convallis ultricies adipiscing.",
+      "Streamlining lending processes and financing solutions to meet your business needs with precision and compliance.",
   },
   {
     src: kikapu09,
     alt: "Financing and Construction",
     title: "Financing and Construction",
     description:
-      "Felis ligula pulvinar quam a mattis vitae litora. Feugiat praesent si felis lobortis magna et consectetur convallis ultricies adipiscing.",
+      "Facilitating financing solutions for construction projects, ensuring regulatory compliance and efficient management throughout the project lifecycle.",
   },
 ];
 
 const Services = () => {
   return (
     <section className="px-2 py-24 bg-white md:px-8 lg:px-16 xl:px-52 2xl:px-56">
-      <p className="pb-5 font-bold text-center text-base">OUR SERVICES</p>
-      <h2 className="pb-10 text-2xl md:text-3xl font-bold text-center">Services We Offer</h2>
+      <p className="pb-5 text-base font-bold text-center">OUR SERVICES</p>
+      <h2 className="pb-10 text-2xl font-bold text-center md:text-3xl">Services We Offer</h2>
       <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
         {services.map((service, index) => (
           <div key={index} className="truncate rounded-lg card bg-pine-brown">

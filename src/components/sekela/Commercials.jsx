@@ -3,18 +3,18 @@ import { SlGlobe, SlChart, SlDiamond } from "react-icons/sl";
 const cardData = [
   {
     icon: <SlGlobe className="p-2 text-5xl text-white rounded md:text-4xl bg-custorm-yellow" />,
-    title: "Infrastructure Projects",
-    description: "We offer long-term financing expertise to develop infrastructure projects"
+    title: "Microloans",
+    description: "Tailored microloans to empower entrepreneurs and small businesses."
   },
   {
     icon: <SlChart className="p-2 text-5xl text-white rounded md:text-4xl bg-custorm-yellow" />,
-    title: "Investment Management",
-    description: "Our investment management services ensure your investments are secure and growing"
+    title: "Savings Accounts",
+    description: "Flexible savings accounts to help you build a secure financial future."
   },
   {
     icon: <SlDiamond className="p-2 text-5xl text-white rounded md:text-4xl bg-custorm-yellow" />,
-    title: "Wealth Management",
-    description: "Expert wealth management services to grow and protect your wealth"
+    title: "Insurance Services",
+    description: "Comprehensive insurance services to protect your assets and investments."
   }
 ];
 
@@ -22,9 +22,9 @@ const Commercials = () => {
   return (
     <section className="px-2 py-24 md:px-8 lg:px-16 xl:px-52 2xl:px-56">
       <div className="md:gap-8 md:items-center md:flex">
-        <div>
-          <h2 className="pb-5 text-2xl md:text-3xl font-bold">
-            Trusted Commercial Consulting & Finance Broker
+        <div className="w-full md:max-w-xl">
+          <h2 className="pb-5 text-2xl font-bold md:text-3xl">
+          Comprehensive Financial Solutions for Growth and Empowerment
           </h2>
         </div>
         <div className="grid gap-5 md:col-span-2 sm:grid-cols-2 md:grid-cols-2">

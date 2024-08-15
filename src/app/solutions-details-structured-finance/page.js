@@ -20,10 +20,12 @@ const page = ({ fullHeight = false }) => {
         />
         <div className="absolute top-0 left-0 w-full h-full bg-[#1b4336] opacity-70 z-5"></div>
         <div className="relative z-10 items-center px-2 pt-8 md:px-8 lg:px-16 xl:px-52 2xl:px-56">
-          <p className=" text-white text-base">
-          Home/solutions/details/structured-finance
+          <p className="text-base text-white">
+            Home/solutions/details/structured-finance
           </p>
-          <h2 className="text-2xl text-white md:text-3xl">Structured Finance</h2>
+          <h2 className="text-2xl text-white md:text-3xl">
+            Structured Finance
+          </h2>
         </div>
       </section>
 
@@ -31,100 +33,57 @@ const page = ({ fullHeight = false }) => {
 
       <section className="px-2 py-24 md:px-8 lg:px-16 xl:px-52 2xl:px-56">
         <div className="grid gap-5 md:grid-cols-1 lg:grid-cols-3">
-         <SolutionsLinks />
+          <SolutionsLinks />
           <div className="col-span-2">
             <div className="max-w-4xl mb-2">
               <Image src={medienSturmer} alt="team" className="bg-cover" />
             </div>
             <div>
-              <h2 className="p-5 text-2xl md:text-3xl font-bold border-l-2 border-gray-400">
-                Trading
+              <h2 className="p-5 my-5 text-2xl font-bold border-l-2 border-gray-400 md:text-3xl">
+                Value-Based Consultancy & Structured Finance
               </h2>
-              <p className="py-8 text-base">
-                Swift deal execution is the cornerstone of our trading function.
-                You can count on us to provide seamless entry and exit in and
-                out of various securities, whether publicly or privately issued.
+              <p className="text-base ">
+                Mopane Consultancy Services is a registered investment advisor
+                specializing in structured finance solutions for manufacturers
+                and processors. We assist companies in raising capital and
+                managing supply chains, especially those unable to access
+                conventional banking systems. Our expertise ensures that
+                businesses thrive by assessing market demand, production
+                capabilities, and reliable supply chains.
               </p>
-              <div className="pb-10 border-b-2 border-gray-400">
-                <p className="inline p-1 text-base rounded-2xl bg-custorm-purple">
-                  FOREIGN EXCHANGE TRADING
-                </p>
-                <p className="pt-3 text-base">
-                  Dealing in most major currencies, our foreign exchange
-                  offering supports international trade.
-                </p>
-                <div>
-                  <div className="flex items-center">
-                    <BsDot className="text-3xl text-gray-500" />
-                    <p className="text-base">Spot Forex Transactions</p>
-                  </div>
-                  <div className="flex items-center">
-                    <BsDot className="text-3xl text-gray-500" />
-                    <p className="text-base">Forward Exchange Contracts</p>
-                  </div>
-                  <div className="flex items-center">
-                    <BsDot className="text-3xl text-gray-500" />
-                    <p className="text-base">Currency Swaps</p>
-                  </div>
-                </div>
-              </div>
+              <p className="py-5 border-b-2 border-gray-400">
+                Our value-based consultancy model focuses on delivering
+                tangible, measurable value through expert team collaborations
+                and innovative finance solutions tailored to enhance your
+                business&apos;s profitability and long-term sustainability.
+              </p>
+
               <div className="pt-5 pb-5 border-b-2 border-gray-400">
                 <p className="inline p-1 text-base rounded-2xl bg-custorm-purple">
-                  COMMODITIES
+                  EXPERTISE
                 </p>
                 <p className="pt-5 text-base">
-                  We specialize in supply chain management for local and
-                  international commodity trades.
+                  We specialize in capital raising, supply chain management,
+                  risk mitigation, and financial market development for complex
+                  African ecosystems.
                 </p>
-              </div>
-              <div className="pt-5 pb-5 border-b-2 border-gray-400">
-                <p className="inline p-1 text-base rounded-2xl bg-custorm-purple">
-                  FIXED INCOME SECURITIES
-                </p>
-                <p className="pt-4 text-base">
-                  We are market makers in a wide range of money and capital
-                  market instruments, providing liquidity and improving market
-                  efficiency. Main instruments traded include:
-                </p>
-                <div>
-                  <div className="flex items-center">
-                    <BsDot className="text-3xl text-gray-500" />
-                    <p className="text-base">Treasury Bills/Bonds</p>
-                  </div>
-                  <div className="flex items-center">
-                    <BsDot className="text-3xl text-gray-500" />
-                    <p className="text-base">Promissory Notes</p>
-                  </div>
-                  <div className="flex items-center">
-                    <BsDot className="text-3xl text-gray-500" />
-                    <p className="text-base">Commercial Paper</p>
-                  </div>
-                  <div className="flex items-center">
-                    <BsDot className="text-3xl text-gray-500" />
-                    <p className="text-base">Municipality Bonds</p>
-                  </div>
-                </div>
               </div>
 
               <div className="pt-5">
                 <p className="inline p-1 text-base rounded-2xl bg-custorm-purple">
-                  FINANCIAL PRODUCTS
+                  INNOVATION & ADAPTABILITY
                 </p>
-                <h3 className="py-2 text-2xl font-bold">Crypto</h3>
-                <p className="text-base">
-                  Please reach out and tell us about your exact needs.
-                </p>
-                <h3 className="py-2 text-2xl font-bold">Equities</h3>
-                <p className="text-base">
-                  Please reach out and tell us about your exact needs.
+                <p className="pt-5 text-base">
+                  Our performance-based consultancy model ensures that we only
+                  get compensated upon delivering measurable results. We
+                  leverage fintech and 4IR technologies to drive transformative
+                  changes in your business and its ecosystem.
                 </p>
               </div>
             </div>
           </div>
         </div>
       </section>
-
- 
     </>
   );
 };

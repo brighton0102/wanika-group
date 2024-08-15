@@ -8,33 +8,33 @@ import DiscoverMore from "@/components/kikapu/DiscoverMore";
 const values = [
   {
     icon: <SlChart className="p-2 text-5xl text-white rounded md:text-4xl bg-dark-brown" />,
-    title: "Customer-Orientedness",
-    description: "Our management and staff do not only have a genuine concern for customers well-being, but we also have empathy — the ability to imagine our clients emotional responses to their experience with the institution."
+    title: "Expertise in Corporate Governance",
+    description: "We provide unparalleled expertise in corporate governance, ensuring your business adheres to legal frameworks and regulatory mandates."
   },
   {
     icon: <SlBriefcase className="p-2 text-5xl text-white rounded md:text-4xl bg-dark-brown" />,
-    title: "Professionalism",
-    description: "We maintain a high standard of professionalism in our work, ensuring that we provide the best services and uphold our company’s reputation."
+    title: "Commitment to Compliance",
+    description: "Our meticulous approach to company compliance helps businesses minimize risks and maintain operational efficiency."
   },
   {
     icon: <FiUsers className="p-2 text-5xl text-white rounded md:text-4xl bg-dark-brown" />,
-    title: "Teamwork",
-    description: "Collaboration and teamwork are at the core of our operations. We believe in working together to achieve common goals."
+    title: "Client-Centric Solutions",
+    description: "We understand the unique needs of Zimbabwean businesses and tailor our services to optimize growth and success."
   },
   {
     icon: <SlGraph className="p-2 text-5xl text-white rounded md:text-4xl bg-dark-brown" />,
-    title: "Innovation",
-    description: "We are committed to continuous improvement and innovation, constantly seeking new ways to meet our clients' needs."
+    title: "Streamlined Processes",
+    description: "Our expertise in company administration and statutory requirements ensures streamlined processes and effective management."
   },
   {
     icon: <SlGlobe className="p-2 text-5xl text-white rounded md:text-4xl bg-dark-brown" />,
-    title: "Global Reach",
-    description: "Our global presence allows us to serve clients from different parts of the world, providing them with tailored financial solutions."
+    title: "Precision and Clarity",
+    description: "Just as the Swahili basket sifts and refines, we provide clarity and precision in our advisory and secretarial services."
   },
   {
     icon: <SlDiamond className="p-2 text-5xl text-white rounded md:text-4xl bg-dark-brown" />,
-    title: "Excellence",
-    description: "We strive for excellence in everything we do, from customer service to financial solutions, ensuring the highest quality standards."
+    title: "Leadership in Secretarial Services",
+    description: "We lead the industry in providing comprehensive secretarial solutions, leveraging our extensive experience and knowledge."
   },
 ];
 
@@ -55,51 +55,42 @@ const page = ({ fullHeight = false }) => {
         />
         <div className="absolute top-0 left-0 w-full h-full bg-[#000000] opacity-60 z-5"></div>
         <div className="relative z-10 items-center px-2 pt-8 md:px-8 lg:px-16 xl:px-52 2xl:px-56">
-          <p className="text-white text-base">kikapu-finance/about-us</p>
+          <p className="text-base text-white">kikapu-finance/about-us</p>
           <h3 className="text-2xl text-white md:text-3xl">About Us</h3>
         </div>
       </section>
 
       {/*About Us*/}
       <section className="py-24">
-        <div className="flex justify-center">
-          <div className="grid px-2 md:items-center md:gap-16 md:grid-cols-2 md:px-8 lg:px-16 xl:px-52 2xl:px-56">
-            <div className="flex justify-center">
-              <Image
-                className="object-cover rounded-lg"
-                src={kikapu03}
-                width={600}
-                height={500}
-                alt="market-place"
-              />
-            </div>
-            <div className="md:max-w-2xl">
-              <p className="pt-5 pb-5 text-lg font-bold md:pt-0 md:text-base text-dark-brown">WHO WE ARE</p>
-              <h3 className="pb-5 text-2xl md:text-3xl font-bold">
-                We are the magic behind the company’s best days.
-              </h3>
-              <p className="p-4  italic border-l-4 text-base bg-pine-brown border-dark-brown text-regal-blue">
-                Nulla non faucibus montes netus tristique adipiscing in augue
-                ullamcorper ante finibus.
-              </p>
-              <p className="pt-5 pb-5 text-gray-500 text-base">
-                Massa eu hendrerit netus facilisis cubilia montes curae
-                imperdiet. Laoreet cubilia mattis scelerisque malesuada nulla
-                ipsum mauris. Dui facilisis vel dictumst himenaeos cubilia
-                fringilla congue tempus. Pellentesque nullam nascetur nibh
-                ultricies.
-              </p>
-              <p className="pt-5 pb-5 text-gray-500 text-base">
-                Massa eu hendrerit netus facilisis cubilia montes curae
-                imperdiet. Laoreet cubilia mattis scelerisque malesuada nulla
-                ipsum mauris. Dui facilisis vel dictumst himenaeos cubilia
-                fringilla congue tempus. Pellentesque nullam nascetur nibh
-                ultricies.
-              </p>
-            </div>
+      <div className="flex justify-center">
+        <div className="grid px-2 md:items-center md:gap-16 md:grid-cols-2 md:px-8 lg:px-16 xl:px-52 2xl:px-56">
+          <div className="flex justify-center">
+            <Image
+              className="object-cover rounded-lg"
+              src={kikapu03}
+              width={600}
+              height={500}
+              alt="Company Overview"
+            />
+          </div>
+          <div className="md:max-w-2xl">
+            <p className="pt-5 pb-5 text-lg font-bold md:pt-0 md:text-base text-dark-brown">WHO WE ARE</p>
+            <h3 className="pb-5 text-2xl font-bold md:text-3xl">
+              Premier Provider of Innovative Secretarial Solutions
+            </h3>
+            <p className="p-4 text-base italic border-l-4 bg-pine-brown border-dark-brown text-regal-blue">
+              Kikapu Financial Services offers top-tier secretarial solutions for Zimbabwean businesses, focusing on corporate governance, compliance, and regulatory adherence.
+            </p>
+            <p className="pt-5 pb-5 text-base text-gray-500">
+              Our expert team excels in company administration, including registration, record maintenance, and annual filings. We uphold the highest standards to ensure your business operates within legal frameworks and regulatory mandates.
+            </p>
+            <p className="pt-5 pb-5 text-base text-gray-500">
+              The name Kikapu, inspired by the Swahili term for a traditional basket used for sorting grains, symbolizes our commitment to providing clarity and precision in our advisory and secretarial services.
+            </p>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
       {/*Banner*/}
       <DiscoverMore />
@@ -108,7 +99,7 @@ const page = ({ fullHeight = false }) => {
       <section className="px-2 py-24 bg-white md:px-8 lg:px-16 xl:px-52 2xl:px-56">
         <div>
           <p className="pb-5 text-lg font-bold text-center md:text-base text-dark-brown">OUR VALUES</p>
-          <h2 className="pb-10 text-2xl md:text-3xl font-bold text-center">We Are Strategic</h2>
+          <h2 className="pb-10 text-2xl font-bold text-center md:text-3xl">We Are Strategic</h2>
         </div>
         <div className="grid gap-5 md:grid-cols-2">
           {values.map((value, index) => (

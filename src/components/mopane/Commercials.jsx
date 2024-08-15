@@ -5,22 +5,22 @@ const cardData = [
   {
     icon: <SlChart className="p-2 text-5xl text-white rounded md:text-4xl bg-dark-brown" />,
     title: "Capital Raising",
-    description: "Specializing in capital raising through high net-worth individuals and institutional investors.",
+    description: "Securing funding through high net-worth individuals and institutional investors for diverse ventures.",
   },
   {
     icon: <SlDiamond className="p-2 text-5xl text-white rounded md:text-4xl bg-dark-brown" />,
-    title: "Investment Attraction",
-    description: "Attracting investment with experienced technocrats across various industries.",
+    title: "Investment Consulting",
+    description: "Partnering with Mopane Consultancy Services to provide independent assessments and risk mitigation.",
   },
   {
     icon: <SlGlobe className="p-2 text-5xl text-white rounded md:text-4xl bg-dark-brown" />,
-    title: "Global Partnerships",
-    description: "Engaging with private equity and venture capital markets in the USA, Canada, and Europe.",
+    title: "Global Market Engagement",
+    description: "Connecting investors with high-risk, high-return opportunities in commodity trading, energy, and mining sectors.",
   },
   {
     icon: <FiUsers className="p-2 text-5xl text-white rounded md:text-4xl bg-dark-brown" />,
-    title: "Comprehensive Analysis",
-    description: "Conducting rigorous analysis to identify projects for successful investment.",
+    title: "Rigorous Research",
+    description: "Employing thorough research and analysis to ensure meticulous project selection and success.",
   },
 ];
 
@@ -29,12 +29,12 @@ const Commercials = () => {
     <section className="px-2 py-24 md:px-8 lg:px-16 xl:px-52 2xl:px-56">
       <div className="flex flex-col items-center justify-center gap-5 md:flex-row">
         <div>
-          <p className="pb-5 font-bold text-base text-dark-brown">WHY CHOOSE US</p>
-          <h2 className="pb-5 text-2xl md:text-3xl font-bold">
-            Unlocking Investment Opportunities Together
+          <p className="pb-5 text-base font-bold text-dark-brown">WHY CHOOSE US</p>
+          <h2 className="pb-5 text-2xl font-bold md:text-3xl">
+            Unlock High-Impact Investment Opportunities
           </h2>
           <p className="text-base text-gray-500">
-            Mopane Capital Ventures leverages stakeholder expertise to co-create new enterprises and enhance existing businesses.
+            Mopane Capital Ventures specializes in capital raising and structured finance, connecting investors with high-return opportunities and providing comprehensive due diligence.
           </p>
         </div>
         <div className="grid gap-5 md:grid-cols-2">
