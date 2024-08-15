@@ -16,11 +16,17 @@ const navItems = [
     link: "/services",
     children: [
       { label: "Mopane Capital", link: "/companies/mopane-capital" },
-      { label: "Idwala Asset Management", link: "/companies/idwala-asset-management" },
+      {
+        label: "Idwala Asset Management",
+        link: "/companies/idwala-asset-management",
+      },
       { label: "Watata Commodities", link: "/companies/watata-commodities" },
       { label: "Sekela Microfinance", link: "/companies/sekela-microfinance" },
       { label: "Kikapu Financial Services", link: "/companies/kikapu-finance" },
-      { label: "Naka Event Management", link: "/companies/naka-event-management" },
+      {
+        label: "Naka Event Management",
+        link: "/companies/naka-event-management",
+      },
     ],
   },
   { label: "Services", link: "/services" },
@@ -44,13 +50,15 @@ export default function Navbar() {
     <div className="absolute top-0 left-0 z-50 w-full bg-white shadow-lg">
       <div className="flex items-center justify-between w-full px-4 py-3 mx-auto bg-transparent md:px-8 lg:px-16 xl:px-52 2xl:px-56">
         <section className="flex items-center">
-          <Image
-            src={logo}
-            alt="Website logo"
-            width={120}
-            height={40}
-            className="object-contain"
-          />
+          <Link href="/">
+            <Image
+              src={logo}
+              alt="Website logo"
+              width={120}
+              height={40}
+              className="object-contain"
+            />
+          </Link>
         </section>
 
         {isSideMenuOpen && <MobileNav closeSideMenu={closeSideMenu} />}
@@ -118,7 +126,10 @@ function MobileNav({ closeSideMenu }) {
             className="text-4xl cursor-pointer"
           />
         </section>
-        <div ref={animationParent} className="flex flex-col gap-2 text-base transition-all">
+        <div
+          ref={animationParent}
+          className="flex flex-col gap-2 text-base transition-all"
+        >
           {navItems.map((data, index) => (
             <div key={index} className="relative group">
               {data.children ? (
@@ -129,7 +140,11 @@ function MobileNav({ closeSideMenu }) {
                   >
                     <p className="flex items-center gap-2 text-lg text-neutral-400 group-hover:text-black">
                       <span>{data.label}</span>
-                      <IoIosArrowDown className={`text-xs transition-all ${isItemOpen[index] ? "rotate-180" : ""}`} />
+                      <IoIosArrowDown
+                        className={`text-xs transition-all ${
+                          isItemOpen[index] ? "rotate-180" : ""
+                        }`}
+                      />
                     </p>
                   </div>
                   {isItemOpen[index] && (
