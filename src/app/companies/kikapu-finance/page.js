@@ -6,6 +6,13 @@ import Services from "@/components/kikapu/Services";
 import DiscoverMore from "@/components/kikapu/DiscoverMore";
 import Commercials from "@/components/kikapu/Commercials";
 
+export const metadata = {
+  title: {
+    absolute: "Kikapu Finance"
+   
+  },
+}
+
 const page = () => {
   return (
     <>

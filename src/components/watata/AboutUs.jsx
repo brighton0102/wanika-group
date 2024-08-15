@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import watata06 from "@/assets/images/watata06.jpg";
+import watata12 from "@/assets/images/watata13.jpg";
 
 const AboutUs = () => {
   return (
@@ -10,7 +10,7 @@ const AboutUs = () => {
           <div className="flex justify-center">
             <Image
               className="object-cover rounded-lg"
-              src={watata06}
+              src={watata12}
               width={600}
               height={500}
               alt="Commodities Market"

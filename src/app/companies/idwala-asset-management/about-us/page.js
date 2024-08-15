@@ -9,6 +9,13 @@ import { SlGlobe } from "react-icons/sl";
 import { SlChart } from "react-icons/sl";
 import DiscoverMore from "@/components/idwala/DiscoverMore";
 
+export const metadata = {
+  title: {
+    absolute: "About - Idwala Asset Management"
+   
+  },
+}
+
 const cardData = [
   {
     icon: (

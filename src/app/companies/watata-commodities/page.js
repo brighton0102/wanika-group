@@ -6,6 +6,13 @@ import Services from "@/components/watata/Services";
 import DiscoverMore from "@/components/watata/DiscoverMore";
 import Commercials from "@/components/watata/Commercials";
 
+export const metadata = {
+  title: {
+    absolute: "Watata Commodities"
+   
+  },
+}
+
 const page = () => {
   return (
     <>

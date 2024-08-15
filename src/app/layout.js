@@ -7,8 +7,8 @@ const openSans = Open_Sans({ weight: "400", subsets: ["latin"] });
 
 export const metadata = {
   title: {
-    default: "Wanika Investment",
-    template: "%s - Wanika Investment"
+    default: "Wanika Group",
+    template: "%s - Wanika Group"
   },
   description: "Exploration and Discovery in African Financial Solutions",
 };

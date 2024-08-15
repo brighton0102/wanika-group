@@ -1,21 +1,21 @@
 import Image from "next/image";
 import Link from "next/link";
-import africanWoman from "@/assets/images/african-woman.jpg";
+import mopane20 from "@/assets/images/mopane20.jpg";
 
 const Hero = () => {
   return (
     <section className="relative w-full h-screen overflow-hidden pt-60">
       <Image
-        src={africanWoman}
+        src={mopane20}
         alt="Exploration Background"
         layout="fill"
         objectFit="cover"
         quality={100}
         className="absolute z-0"
       />
-      <div className="absolute top-0 left-0 w-full h-full bg-[#000000] opacity-30 z-5"></div>
+      <div className="absolute top-0 left-0 w-full h-full bg-[#000000] opacity-50 z-5"></div>
       <div className="relative z-10 items-center px-2 pt-8 md:px-8 lg:px-16 xl:px-52 2xl:px-56 xl:max-w-5xl 2xl:max-w-5xl md:max-w-3xl">
-        <p className="pb-5 text-base font-bold text-center text-white md:text-left">
+        <p className="pb-5 text-base font-bold text-center text-dark-brown md:text-left">
           YOUR CAPITAL RAISING EXPERT
         </p>
         <h1 className="pb-5 text-3xl font-bold leading-snug text-center text-white md:text-left">

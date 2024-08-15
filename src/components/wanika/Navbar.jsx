@@ -41,7 +41,7 @@ export default function Navbar() {
   }
 
   return (
-    <div className="absolute top-0 left-0 z-50 w-full ">
+    <div className="absolute top-0 left-0 z-50 w-full bg-white shadow-lg">
       <div className="flex items-center justify-between w-full px-4 py-3 mx-auto bg-transparent md:px-8 lg:px-16 xl:px-52 2xl:px-56">
         <section className="flex items-center">
           <Image
@@ -62,7 +62,7 @@ export default function Navbar() {
                 className="relative px-2 py-3 transition"
                 onClick={() => closeSideMenu()}
               >
-                <p className="flex items-center gap-2 text-lg text-white cursor-pointer md:text-base group-hover:text-custorm-green">
+                <p className="flex items-center gap-2 text-lg font-bold cursor-pointer text-custorm-green md:text-base group-hover:text-black">
                   <span>{data.label}</span>
                   {data.children && (
                     <IoIosArrowDown className="transition-all rotate-180 group-hover:rotate-0" />
@@ -85,7 +85,7 @@ export default function Navbar() {
         </div>
         <FiMenu
           onClick={openSideMenu}
-          className="text-4xl text-white cursor-pointer md:block lg:hidden"
+          className="text-4xl text-black cursor-pointer md:block lg:hidden"
         />
       </div>
     </div>
@@ -103,6 +103,12 @@ function MobileNav({ closeSideMenu }) {
     }));
   }
 
+  function handleLinkClick(event, link) {
+    event.preventDefault(); // Prevent default link behavior
+    closeSideMenu();
+    window.location.href = link; // Navigate programmatically
+  }
+
   return (
     <div className="fixed top-0 left-0 flex justify-end w-full h-full min-h-screen bg-black/60 lg:hidden">
       <div className="h-full w-[65%] bg-white px-4 py-4">
@@ -112,43 +118,41 @@ function MobileNav({ closeSideMenu }) {
             className="text-4xl cursor-pointer"
           />
         </section>
-        <div
-          ref={animationParent}
-          className="flex flex-col gap-2 text-base transition-all"
-        >
+        <div ref={animationParent} className="flex flex-col gap-2 text-base transition-all">
           {navItems.map((data, index) => (
             <div key={index} className="relative group">
-              <div
-                onClick={() => {
-                  if (data.children) {
-                    toggleItem(index);
-                  } else {
-                    closeSideMenu(); // Close the side menu before navigating
-                  }
-                }}
-                className="relative px-2 py-3 transition cursor-pointer"
-              >
-                <p className="flex items-center gap-2 text-lg text-neutral-400 group-hover:text-black">
-                  <span>{data.label}</span>
-                  {data.children && (
-                    <IoIosArrowDown
-                      className={`text-xs transition-all ${
-                        isItemOpen[index] ? "rotate-180" : ""
-                      }`}
-                    />
+              {data.children ? (
+                <>
+                  <div
+                    onClick={() => toggleItem(index)}
+                    className="relative px-2 py-3 transition cursor-pointer"
+                  >
+                    <p className="flex items-center gap-2 text-lg text-neutral-400 group-hover:text-black">
+                      <span>{data.label}</span>
+                      <IoIosArrowDown className={`text-xs transition-all ${isItemOpen[index] ? "rotate-180" : ""}`} />
+                    </p>
+                  </div>
+                  {isItemOpen[index] && (
+                    <div className="flex flex-col w-auto gap-1 py-3 transition-all bg-white rounded-lg shadow-md">
+                      {data.children.map((child, childIndex) => (
+                        <SingleNavItem
+                          key={childIndex}
+                          child={child}
+                          closeSideMenu={closeSideMenu}
+                          handleLinkClick={handleLinkClick}
+                        />
+                      ))}
+                    </div>
                   )}
-                </p>
-              </div>
-              {isItemOpen[index] && data.children && (
-                <div className="flex flex-col w-auto gap-1 py-3 transition-all bg-white rounded-lg shadow-md">
-                  {data.children.map((child, childIndex) => (
-                    <SingleNavItem
-                      key={childIndex}
-                      child={child}
-                      closeSideMenu={closeSideMenu}
-                    />
-                  ))}
-                </div>
+                </>
+              ) : (
+                <Link
+                  href={data.link ?? "#"}
+                  onClick={(event) => handleLinkClick(event, data.link)}
+                  className="relative px-2 py-3 text-lg transition cursor-pointer text-neutral-400 group-hover:text-black" // Ensure text-lg is added here
+                >
+                  {data.label}
+                </Link>
               )}
             </div>
           ))}
@@ -162,7 +166,7 @@ function SingleNavItem({ child, closeSideMenu }) {
   return (
     <Link
       href={child.link ?? "#"}
-      className="flex items-center px-4 py-2 text-lg text-gray-800 cursor-pointer md:text-base hover:bg-gray-100"
+      className="flex items-center px-4 py-2 text-lg text-gray-800 cursor-pointer md:text-base hover:bg-gray-100" // Ensure text-lg is added here
       onClick={() => closeSideMenu()}
     >
       <span className="whitespace-nowrap">{child.label}</span>

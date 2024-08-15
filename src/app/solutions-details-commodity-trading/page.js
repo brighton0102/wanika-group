@@ -1,5 +1,6 @@
 import Image from "next/image";
 import medienSturmer from "@/assets/images/mediensturmer.jpg";
+import watata20 from "@/assets/images/watata20.jpg";
 import SolutionsLinks from "@/components/solutions/SolutionsLinks";
 
 const page = ({ fullHeight = false }) => {
@@ -33,7 +34,7 @@ const page = ({ fullHeight = false }) => {
           <SolutionsLinks />
           <div className="col-span-2">
             <div className="max-w-4xl mb-2">
-              <Image src={medienSturmer} alt="commodity trading" className="bg-cover" />
+              <Image src={watata20} alt="commodity trading" className="bg-cover" />
             </div>
             <div>
               <h2 className="p-5 my-5 text-2xl font-bold border-l-2 border-gray-400 md:text-3xl">

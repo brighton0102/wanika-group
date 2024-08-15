@@ -1,37 +1,39 @@
 import Image from "next/image";
-import watata01 from "@/assets/images/watata01.jpg";
-import watata02 from "@/assets/images/watata02.jpg";
-import watata06 from "@/assets/images/watata06.jpg";
-import watata09 from "@/assets/images/watata09.jpg";
+import watata18 from "@/assets/images/watata18.jpg";
+import watata19 from "@/assets/images/watata19.jpg";
+import watata16 from "@/assets/images/watata16.jpg";
+import watata14 from "@/assets/images/watata14.jpg";
+import watata17 from "@/assets/images/watata17.jpg";
+import watata20 from "@/assets/images/watata20.jpg";
 
 const servicesData = [
   {
-    image: watata01,
+    image: watata18,
     title: "Maize Grain",
     description: "Strategic sourcing of premium-grade maize from international suppliers, ensuring stringent quality standards and seamless logistics."
   },
   {
-    image: watata02,
+    image: watata19,
     title: "Wheat",
     description: "Sourcing and delivering top-tier wheat from global producers, with meticulous quality control and agile distribution."
   },
   {
-    image: watata09,
+    image: watata17,
     title: "Soya",
     description: "Procuring and supplying diverse soya products (beans, meal, and oil) through strategic alliances with esteemed suppliers."
   },
   {
-    image: watata06,
+    image: watata16,
     title: "Ammonium Nitrate",
     description: "Forging strong relationships with manufacturers to ensure seamless availability of superior-quality ammonium nitrate, prioritizing safety protocols and regulatory compliance."
   },
   {
-    image: watata06,
+    image: watata14,
     title: "Bulk Grain Importation",
     description: "Specializing in the importation of bulk grains like maize, wheat, and soya, meeting the growing demand for efficient supply chains."
   },
   {
-    image: watata09,
+    image: watata20,
     title: "Bulk Mineral Exports",
     description: "Expertise in exporting bulk minerals such as coking coal, lithium, and chrome, ensuring reliable and efficient delivery to international markets."
   }

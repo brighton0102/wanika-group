@@ -6,6 +6,15 @@ import Services from "@/components/naka/Services";
 import DiscoverMore from "@/components/naka/DiscoverMore";
 import Commercials from "@/components/naka/Commercials";
 
+
+export const metadata = {
+  title: {
+    absolute: "Naka Event Management"
+   
+  },
+}
+
+
 const page = () => {
   return (
     <>

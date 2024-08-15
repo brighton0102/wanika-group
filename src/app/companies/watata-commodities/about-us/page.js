@@ -1,8 +1,16 @@
 import Image from "next/image";
-import watata04 from "@/assets/images/watata04.jpg";
+import watata20 from "@/assets/images/watata20.jpg";
+import watata12 from "@/assets/images/watata13.jpg";
 import { FiUsers } from "react-icons/fi";
 import { SlDiamond, SlBriefcase, SlGraph, SlGlobe, SlChart } from "react-icons/sl";
 import DiscoverMore from "@/components/watata/DiscoverMore";
+
+export const metadata = {
+  title: {
+    absolute: "About - Watata Commodities"
+   
+  },
+}
 
 const valuesData = [
   {
@@ -44,7 +52,7 @@ const Page = ({ fullHeight = false }) => {
         style={{ height: fullHeight ? "100vh" : "50vh" }}
       >
         <Image
-          src={watata04}
+          src={watata20}
           alt="Exploration Background"
           layout="fill"
           objectFit="cover"
@@ -65,7 +73,7 @@ const Page = ({ fullHeight = false }) => {
           <div className="flex justify-center">
             <Image
               className="object-cover rounded-lg"
-              src={watata04}
+              src={watata12}
               width={600}
               height={500}
               alt="bulk commodities"

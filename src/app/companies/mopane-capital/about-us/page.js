@@ -1,5 +1,6 @@
 import Image from "next/image";
-import treePic from "@/assets/images/tree-pic.jpg";
+import mopane22 from "@/assets/images/mopane22.jpg";
+import mopane20 from "@/assets/images/mopane20.jpg";
 import DiscoverMore from "@/components/mopane/DiscoverMore";
 import { FiUsers } from "react-icons/fi";
 import { SlGlobe } from "react-icons/sl";
@@ -7,6 +8,14 @@ import { SlGraph } from "react-icons/sl";
 import { SlChart } from "react-icons/sl";
 import { SlDiamond } from "react-icons/sl";
 import { SlBriefcase } from "react-icons/sl";
+
+export const metadata = {
+  title: {
+    absolute: "About - Mopane Capital"
+   
+  },
+}
+
 
 const valuesData = [
   {
@@ -50,14 +59,14 @@ const Page = ({ fullHeight = false }) => {
         style={{ height: fullHeight ? "100vh" : "50vh" }}
       >
         <Image
-          src={treePic}
+          src={mopane20}
           alt="Exploration Background"
           layout="fill"
           objectFit="cover"
           quality={100}
           className="absolute z-0"
         />
-        <div className="absolute top-0 left-0 w-full h-full bg-[#643c05] opacity-40 z-5"></div>
+        <div className="absolute top-0 left-0 w-full h-full bg-[#000000] opacity-50 z-5"></div>
         <div className="relative z-10 items-center px-2 pt-8 md:px-8 lg:px-16 xl:px-52 2xl:px-56">
           <p className="text-base text-white">mopane-capital/about-us</p>
           <h3 className="text-2xl text-white md:text-3xl">About Us</h3>
@@ -71,7 +80,7 @@ const Page = ({ fullHeight = false }) => {
       <div className="flex justify-center">
         <Image
           className="object-cover rounded-lg"
-          src={treePic}
+          src={mopane22}
           width={600}
           height={500}
           alt="Company Overview"

@@ -5,6 +5,14 @@ import { FiUsers } from "react-icons/fi";
 import { SlDiamond, SlBriefcase, SlGraph, SlGlobe, SlChart } from "react-icons/sl";
 import DiscoverMore from "@/components/naka/DiscoverMore";
 
+export const metadata = {
+  title: {
+    absolute: "About - Naka Event Management"
+   
+  },
+}
+
+
 const companyValuesData = [
   {
     icon: <SlChart className="p-2 text-5xl text-white rounded md:text-4xl bg-custorm-pink" />,

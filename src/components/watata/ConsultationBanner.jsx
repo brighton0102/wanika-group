@@ -1,12 +1,12 @@
 import Image from "next/image";
-import watata02 from "@/assets/images/watata02.jpg";
+import watata15 from "@/assets/images/watata15.jpg";
 
 const ConsultationBanner = () => {
   return (
     <section className="relative h-screen-50">
       <div className="relative w-full h-full">
         <Image 
-          src={watata02} 
+          src={watata15} 
           alt="Background Image" 
           layout="fill" 
           objectFit="cover" 

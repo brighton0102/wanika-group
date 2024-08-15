@@ -1,12 +1,12 @@
 import Image from "next/image";
-import mopane17 from "@/assets/images/mopane17.jpg";
+import mopane22 from "@/assets/images/mopane22.jpg";
 
 const ConsultationBanner = () => {
   return (
     <section className="relative h-screen-50">
       <div className="relative w-full h-full">
         <Image 
-          src={mopane17}
+          src={mopane22}
           alt="Background"
           layout="fill"
           objectFit="cover"

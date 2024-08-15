@@ -9,6 +9,15 @@ import { SlChart } from "react-icons/sl";
 import sekela from "@/assets/images/sekela02.jpg";
 import DiscoverMore from "@/components/sekela/DiscoverMore";
 
+
+export const metadata = {
+  title: {
+    absolute: "About - Sekela Micro Finance"
+   
+  },
+}
+
+
 const cardData = [
   {
     icon: (

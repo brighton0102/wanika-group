@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import africanKids from "@/assets/images/african-kids.jpg";
+import mopane19 from "@/assets/images/mopane19.jpg";
 
 const AboutUs = () => {
   return (
@@ -10,7 +10,7 @@ const AboutUs = () => {
           <div className="flex justify-center">
             <Image
               className="object-cover rounded-lg"
-              src={africanKids}
+              src={mopane19}
               width={600}
               height={500}
               alt="Mopane Capital Ventures"

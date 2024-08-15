@@ -4,6 +4,13 @@ import { FiUsers } from "react-icons/fi";
 import { SlDiamond, SlBriefcase, SlGraph, SlGlobe, SlChart } from "react-icons/sl";
 import Link from "next/link";
 
+export const metadata = {
+  title: {
+    default: "Solutions",
+   
+  },
+}
+
 const solutions = [
   {
     title: "Capital Raising",

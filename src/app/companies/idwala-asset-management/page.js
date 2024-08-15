@@ -7,6 +7,15 @@ import Services from "@/components/idwala/Services";
 import DiscoverMore from "@/components/idwala/DiscoverMore";
 import Commercials from "@/components/idwala/Commercials";
 
+
+export const metadata = {
+  title: {
+    absolute: "Idwala Asset Management"
+   
+  },
+}
+
+
 const page = () => {
   return (
     <>

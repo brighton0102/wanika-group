@@ -1,43 +1,44 @@
 import Image from "next/image";
-import idwala02 from "@/assets/images/idwala02.jpg";
-import idwala03 from "@/assets/images/idwala03.jpg";
-import idwala04 from "@/assets/images/idwala04.jpg";
-import idwala05 from "@/assets/images/idwala05.jpg";
-import rob from "@/assets/images/rob.jpg";
+import idwala20 from "@/assets/images/idwala20.jpg";
+import mopane28 from "@/assets/images/mopane28.jpg";
+import mopane25 from "@/assets/images/mopane25.jpg";
+import idwala22 from "@/assets/images/idwala22.jpg";
+import mopane26 from "@/assets/images/mopane26.jpg";
+import idwala21 from "@/assets/images/idwala21.jpg";
 
 const cardData = [
   {
-    image: rob,
+    image: idwala21,
     alt: "project-finance",
     title: "Customized Portfolio Management",
     description: "Tailored investment strategies to meet your unique financial goals and enhance growth potential.",
   },
   {
-    image: idwala02,
+    image: idwala20,
     alt: "investment-consulting",
     title: "Tailored Financial Planning",
     description: "Personalized plans to guide your financial journey and optimize wealth accumulation.",
   },
   {
-    image: idwala03,
+    image: mopane28,
     alt: "international-financing",
     title: "Advanced Risk Management",
     description: "Comprehensive solutions to identify, assess, and mitigate financial risks effectively.",
   },
   {
-    image: idwala04,
+    image: idwala22,
     alt: "residential-property",
     title: "Strategic Investment Consulting",
     description: "Expert advice to navigate global markets and make informed investment decisions.",
   },
   {
-    image: idwala05,
+    image: mopane26,
     alt: "lending-and-financing",
     title: "Global Financing Solutions",
     description: "Connecting clients with international funding sources to support diverse investment needs.",
   },
   {
-    image: rob,
+    image: mopane25,
     alt: "financing",
     title: "Capital Raising Services",
     description: "Expert assistance in securing capital through high-net-worth individuals and institutional investors.",

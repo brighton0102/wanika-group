@@ -6,6 +6,13 @@ import Services from "@/components/sekela/Services";
 import DiscoverMore from "@/components/sekela/DiscoverMore";
 import Commercials from "@/components/sekela/Commercials";
 
+export const metadata = {
+  title: {
+    absolute: "Sekela Micro Finance"
+   
+  },
+}
+
 
 const page = () => {
   return (

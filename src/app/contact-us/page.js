@@ -1,8 +1,14 @@
 
-
 import Image from "next/image";
 import adeolu from "@/assets/images/adeolu.jpg";
 import ContactForm from "./ContactForm";
+
+export const metadata = {
+  title: {
+    default: "Contact",
+   
+  },
+}
 
 export default function ContactPage({ fullHeight = false }) {
   

@@ -6,6 +6,14 @@ import Services from "@/components/mopane/Services";
 import DiscoverMore from "@/components/mopane/DiscoverMore";
 import Commercials from "@/components/mopane/Commercials";
 
+export const metadata = {
+  title: {
+    absolute: "Mopane Capital"
+   
+  },
+}
+
+
 const page = () => {
   return (
     <>

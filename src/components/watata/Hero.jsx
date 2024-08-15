@@ -1,12 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
-import watata04 from "@/assets/images/watata04.jpg";
+import watata20 from "@/assets/images/watata20.jpg";
 
 const Hero = () => {
   return (
     <section className="relative w-full h-screen overflow-hidden pt-60">
       <Image
-        src={watata04}
+        src={watata20}
         alt="Commodities Background"
         layout="fill"
         objectFit="cover"
