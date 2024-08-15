@@ -58,7 +58,7 @@ const Footer = () => {
               Explore
             </p>
             <Link
-              href="/about"
+              href="/about-us"
               className="block pb-4 text-base text-white hover:text-custorm-green"
             >
               About
