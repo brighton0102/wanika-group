@@ -11,9 +11,9 @@ const cardsData = [
   },  
   {
     icon: SlGlobe,
-    title: "Asset Management",
-    description: "Tailored investment solutions and wealth management strategies with a focus on strength, resilience, and financial growth.",
-    link: "/solutions-details-asset-management"
+    title: "Micro Finance",
+    description: "Focused on promoting financial inclusion through tailored microloans, savings accounts, and insurance services.",
+    link: "/solutions-details-micro-finance"
   },
   
   {
