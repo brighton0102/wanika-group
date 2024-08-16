@@ -1,12 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
-import watata20 from "@/assets/images/watata20.jpg";
+import maize from "@/assets/images/maize.jpg";
 
 const Hero = () => {
   return (
     <section className="relative w-full h-screen overflow-hidden pt-60">
       <Image
-        src={watata20}
+        src={maize}
         alt="Commodities Background"
         layout="fill"
         objectFit="cover"
@@ -19,7 +19,7 @@ const Hero = () => {
           YOUR LEADING TRADE PARTNER
         </p>
         <h1 className="pb-5 text-3xl font-bold leading-snug text-center text-white md:text-left">
-          Nourishing Growth Through Essential Commodities
+          Cultivating prosperity through vital resurces
         </h1>
         <p className="pb-5 text-center text-white md:text-base md:text-left">
           Watata Commodities specializes in the procurement and distribution of crucial bulk commodities, including maize, wheat, soya, and minerals, with a commitment to quality and reliability.

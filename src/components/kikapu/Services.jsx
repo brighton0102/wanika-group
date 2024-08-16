@@ -1,21 +1,21 @@
 import Image from "next/image";
 import kikapu04 from "@/assets/images/kikapu04.jpeg";
-import kikapu05 from "@/assets/images/kikapu05.jpeg";
-import kikapu06 from "@/assets/images/kikapu06.jpeg";
-import kikapu07 from "@/assets/images/kikapu07.jpeg";
+import property from "@/assets/images/property.jpeg";
+import projectFinance from "@/assets/images/project-finance.jpeg";
+import consulting from "@/assets/images/consulting.jpeg";
 import kikapu08 from "@/assets/images/kikapu08.jpeg";
 import kikapu09 from "@/assets/images/kikapu09.jpeg";
 
 const services = [
   {
-    src: kikapu06,
+    src: projectFinance,
     alt: "Project Finance",
     title: "Project Finance",
     description:
       "Expertly managing company registration, statutory record maintenance, and annual return filings to ensure compliance and operational efficiency.",
   },
   {
-    src: kikapu07,
+    src: consulting,
     alt: "Investment Consulting",
     title: "Investment Consulting",
     description:
@@ -29,7 +29,7 @@ const services = [
       "Offering solutions for seamless international financial operations, ensuring regulatory adherence and smooth cross-border transactions.",
   },
   {
-    src: kikapu05,
+    src: property,
     alt: "Residential Property",
     title: "Residential Property",
     description:

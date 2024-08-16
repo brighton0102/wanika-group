@@ -1,12 +1,12 @@
 import Image from "next/image";
-import christina from "@/assets/images/christina.jpg";
+import wanikaLeaf from "@/assets/images/wanika-leaf.jpeg";
 
 const ConsultationBanner = () => {
   return (
     <section className="relative h-screen-50">
       <div className="relative top-0 w-full h-full">
         <Image
-          src={christina}
+          src={wanikaLeaf}
           alt="Wanika Group"
           layout="fill"
           objectFit="cover"

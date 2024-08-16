@@ -1,11 +1,11 @@
-import watata11 from "@/assets/images/watata11.jpg";
+import maizeCorn from "@/assets/images/maize-corn.jpg";
 
 const DiscoverMore = () => {
   return (
     <section className="relative h-screen-50">
       <div
         className="sticky top-0 w-full h-full bg-fixed bg-center bg-cover"
-        style={{ backgroundImage: `url(${watata11.src})` }}
+        style={{ backgroundImage: `url(${maizeCorn.src})` }}
       >
         <div className="absolute inset-0 bg-[#000000] bg-opacity-50"></div>{" "}
         {/* Overlay */}

@@ -1,44 +1,44 @@
 import Image from "next/image";
-import mopane27 from "@/assets/images/mopane27.jpg";
-import mopane28 from "@/assets/images/mopane28.jpg";
-import mopane23 from "@/assets/images/mopane23.jpg";
-import mopane24 from "@/assets/images/mopane24.jpg";
-import mopane25 from "@/assets/images/mopane25.jpg";
-import mopane26 from "@/assets/images/mopane26.jpg";
+import structuredFinance from "@/assets/images/structured-finance.jpeg";
+import riskManagement from "@/assets/images/risk-management.jpeg";
+import investmentConsulting from "@/assets/images/investment-consulting.jpeg";
+import researchAnalysis from "@/assets/images/research-analysis.jpeg";
+import capitalRaise from "@/assets/images/capital-raise.jpeg";
+import internationalFinancing from "@/assets/images/international-financing.jpeg";
 
 const servicesData = [
   {
-    image: mopane25,
+    image: capitalRaise,
     title: "Capital Raising",
     description: "Securing funding from high-net-worth individuals and institutional investors through private equity, venture capital, and impact investing.",
     alt: "Capital Raising"
   },
   {
-    image: mopane23,
+    image: investmentConsulting,
     title: "Investment Consulting",
     description: "Providing expert consulting and due diligence for capital raising, risk management, and project structuring.",
     alt: "Investment Consulting"
   },
   {
-    image: mopane27,
+    image: structuredFinance,
     title: "Structured Finance",
     description: "Offering tailored financial structures and solutions for businesses to enhance their growth and investment potential.",
     alt: "Structured Finance"
   },
   {
-    image: mopane28,
+    image: riskManagement,
     title: "Risk Management",
     description: "Implementing strategies to identify and mitigate risks, ensuring robust protection and success for investments.",
     alt: "Risk Management"
   },
   {
-    image: mopane26,
+    image: internationalFinancing,
     title: "International Financing",
     description: "Connecting global investors with high-risk, high-return opportunities in Africa's commodity trading, energy, and mining sectors.",
     alt: "International Financing"
   },
   {
-    image: mopane24,
+    image: researchAnalysis,
     title: "Research & Analysis",
     description: "Employing rigorous analysis to select and vet projects, ensuring they meet investment criteria and offer sustainable returns.",
     alt: "Research & Analysis"
