@@ -22,7 +22,7 @@ const cardData = [
       "Offering customized savings solutions designed to help individuals and businesses achieve financial stability and growth.",
   },
   {
-    src: sekela07,
+    src: smile02,
     alt: "insurance-services",
     title: "Insurance Services",
     description:
@@ -43,7 +43,7 @@ const cardData = [
       "Engaging with local communities and NGOs to drive holistic socio-economic development through collaborative initiatives.",
   },
   {
-    src: smile02,
+    src: sekela07,
     alt: "womens-empowerment",
     title: "Women's Empowerment",
     description:
@@ -55,11 +55,8 @@ const Services = () => {
   return (
     <section className="px-2 py-24 md:px-8 lg:px-16 xl:px-52 2xl:px-56">
       <div className="">
-        <p className="pb-5 text-base font-bold text-center text-custorm-yellow">
+        <h2 className="pb-10 text-2xl font-bold text-center text-custorm-yellow md:text-3xl">
           OUR SERVICES
-        </p>
-        <h2 className="pb-10 text-2xl font-bold text-center md:text-3xl">
-          Services We Offer
         </h2>
       </div>
       <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">

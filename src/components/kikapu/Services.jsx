@@ -1,61 +1,61 @@
 import Image from "next/image";
-import kikapu04 from "@/assets/images/kikapu04.jpeg";
-import property from "@/assets/images/property.jpeg";
-import projectFinance from "@/assets/images/project-finance.jpeg";
+import time from "@/assets/images/time.jpeg";
+import structuredFinance from "@/assets/images/structured-finance.jpeg";
+import paperWork from "@/assets/images/paper-work.jpeg";
 import consulting from "@/assets/images/consulting.jpeg";
 import kikapu08 from "@/assets/images/kikapu08.jpeg";
 import kikapu09 from "@/assets/images/kikapu09.jpeg";
 
 const services = [
   {
-    src: projectFinance,
-    alt: "Project Finance",
-    title: "Project Finance",
+    src: paperWork,
+    alt: "Company Registration",
+    title: "Company Registration",
     description:
-      "Expertly managing company registration, statutory record maintenance, and annual return filings to ensure compliance and operational efficiency.",
+      "Handling company registration processes with precision to ensure compliance with legal requirements and regulatory frameworks.",
   },
   {
     src: consulting,
-    alt: "Investment Consulting",
-    title: "Investment Consulting",
+    alt: "Statutory Record Maintenance",
+    title: "Statutory Record Maintenance",
     description:
-      "Providing strategic guidance on investment opportunities to drive sustainable growth and optimize financial outcomes for your business.",
+      "Maintaining statutory records with accuracy to meet regulatory obligations and support effective company administration.",
   },
   {
-    src: kikapu04,
-    alt: "International Financing",
-    title: "International Financing",
+    src: time,
+    alt: "Annual Return Filings",
+    title: "Annual Return Filings",
     description:
-      "Offering solutions for seamless international financial operations, ensuring regulatory adherence and smooth cross-border transactions.",
+      "Managing annual return filings to ensure timely and accurate submissions in line with regulatory requirements.",
   },
   {
-    src: property,
-    alt: "Residential Property",
-    title: "Residential Property",
+    src: structuredFinance,
+    alt: "Corporate Governance",
+    title: "Corporate Governance",
     description:
-      "Supporting the management and compliance aspects of residential property investments, enhancing operational efficiency and regulatory compliance.",
+      "Upholding high standards of corporate governance to ensure companies operate within legal frameworks and adhere to best practices.",
   },
   {
     src: kikapu08,
-    alt: "Lending and Financing",
-    title: "Lending and Financing",
+    alt: "Regulatory Adherence",
+    title: "Regulatory Adherence",
     description:
-      "Streamlining lending processes and financing solutions to meet your business needs with precision and compliance.",
+      "Ensuring adherence to regulatory mandates to minimize compliance risks and support organizational success.",
   },
   {
     src: kikapu09,
-    alt: "Financing and Construction",
-    title: "Financing and Construction",
+    alt: "Company Secretarial Services",
+    title: "Company Secretarial Services",
     description:
-      "Facilitating financing solutions for construction projects, ensuring regulatory compliance and efficient management throughout the project lifecycle.",
+      "Providing comprehensive secretarial services to support organizational efficiency and compliance with corporate regulations.",
   },
 ];
+
 
 const Services = () => {
   return (
     <section className="px-2 py-24 bg-white md:px-8 lg:px-16 xl:px-52 2xl:px-56">
-      <p className="pb-5 text-base font-bold text-center">OUR SERVICES</p>
-      <h2 className="pb-10 text-2xl font-bold text-center md:text-3xl">Services We Offer</h2>
+      <h2 className="pb-10 text-2xl font-bold text-center text-dark-brown md:text-3xl">OUR SERVICES</h2>
       <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
         {services.map((service, index) => (
           <div key={index} className="truncate rounded-lg card bg-pine-brown">
