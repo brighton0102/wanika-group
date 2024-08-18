@@ -1,8 +1,8 @@
 "use client";
 
-// import Image from "next/image";
+import Image from "next/image";
 import { useState } from "react";
-// import logo from "@/assets/images/logo.png";
+import logo from "@/assets/images/logo.png";
 import { IoIosArrowDown } from "react-icons/io";
 import { FiMenu } from "react-icons/fi";
 import { AiOutlineClose } from "react-icons/ai";
@@ -51,14 +51,13 @@ export default function Navbar() {
       <div className="flex items-center justify-between w-full px-4 py-3 mx-auto bg-transparent md:px-8 lg:px-16 xl:px-52 2xl:px-56">
         <section className="flex items-center">
           <Link href="/">
-            <h1 className="text-2xl">iDesign Websites</h1>
-            {/* <Image
+            <Image
               src={logo}
               alt="Website logo"
               width={120}
               height={40}
               className="object-contain"
-            /> */}
+            />
           </Link>
         </section>
 
