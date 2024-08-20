@@ -26,7 +26,7 @@ const Commercials = () => {
     <section className="px-2 py-24 md:px-8 lg:px-16 2xl:px-56 xl:px-52">
       <div className="flex flex-col items-center gap-8 mx-auto md:flex-row">
         <div className="md:w-1/3">
-          <h2 className="text-2xl font-bold md:text-3xl">
+          <h2 className="text-2xl font-bold text-custorm-green md:text-3xl">
             Transforming Financial Services Across Africa
           </h2>
         </div>

@@ -26,11 +26,11 @@ const solutionsData = [
 
 const Solutions = () => {
   return (
-    <section className="px-2 py-24 bg-custorm-gray md:px-8 lg:px-16 xl:px-52 2xl:px-56">
+    <section className="px-2 py-24 bg-emarald md:px-8 lg:px-16 xl:px-52 2xl:px-56">
       <div className="grid items-center gap-5 md:grid-cols-2">
         <div>
           <p className="pb-5 text-base font-bold text-dark-blue">WHAT WE OFFER</p>
-          <h2 className="text-2xl font-bold md:text-3xl">Developing Solutions for International Trade.</h2>
+          <h2 className="text-2xl font-bold text-dark-blue md:text-3xl">Developing Solutions for International Trade.</h2>
         </div>
         <div>
           <p className="pb-5 text-base">
@@ -44,7 +44,7 @@ const Solutions = () => {
             <div className="pb-5">
               {solution.icon}
             </div>
-            <h3 className="pb-5 text-xl font-bold">{solution.title}</h3>
+            <h3 className="pb-5 text-xl font-bold text-dark-blue">{solution.title}</h3>
             <p className="text-base">{solution.description}</p>
           </div>
         ))}

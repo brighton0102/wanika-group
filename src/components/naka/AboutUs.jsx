@@ -18,7 +18,7 @@ const AboutUs = () => {
           </div>
           <div className="md:max-w-2xl">
             <p className="pt-5 pb-5 text-base font-bold md:pt-0 text-custorm-pink">WHO WE ARE</p>
-            <h2 className="pb-5 text-2xl font-bold md:text-3xl text-custorm-black">
+            <h2 className="pb-5 text-2xl font-bold md:text-3xl text-custorm-pink">
               Crafting Unforgettable Experiences with Precision
             </h2>
             <p className="p-4 pb-5 text-base italic border-l-4 bg-custorm-gray border-custorm-pink text-custorm-black">

@@ -26,7 +26,7 @@ const cardData = [
 
 const Commercials = () => {
   return (
-    <section className="px-2 py-24 md:px-8 lg:px-16 xl:px-52 2xl:px-56">
+    <section className="px-2 py-24 bg-custorm-pink md:px-8 lg:px-16 xl:px-52 2xl:px-56">
       <div className="md:gap-5 md:justify-center md:items-center md:flex">
         <div>
           <p className="pb-5 text-base font-bold text-custorm-pink">WHY CHOOSE US</p>
@@ -43,7 +43,7 @@ const Commercials = () => {
               <div className="pb-5">
                 {card.icon}
               </div>
-              <h3 className="pb-5 text-xl font-bold">{card.title}</h3>
+              <h3 className="pb-5 text-xl font-bold text-custorm-pink">{card.title}</h3>
               <p className="text-base text-gray-500">{card.description}</p>
             </div>
           ))}

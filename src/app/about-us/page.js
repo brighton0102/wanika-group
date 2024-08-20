@@ -84,7 +84,7 @@ const Page = ({ fullHeight = false }) => {
           </div>
           <div className="md:max-w-2xl">
             <p className="pt-5 pb-5 text-lg font-bold md:pt-0 text-custorm-green md:text-base">WHO WE ARE</p>
-            <h2 className="pb-5 text-3xl font-bold">
+            <h2 className="pb-5 text-3xl font-bold text-custorm-green">
               Wanika Group: Innovating Financial Solutions
             </h2>
             <p className="p-4 pb-5 text-base italic border-l-4 border-custorm-green text-regal-blue bg-custorm-gray">
@@ -112,7 +112,7 @@ const Page = ({ fullHeight = false }) => {
           <p className="pb-5 text-base font-bold text-center text-custorm-green">
             OUR VALUES
           </p>
-          <h2 className="pb-10 text-2xl font-bold text-center md:text-3xl ">We Are Strategic</h2>
+          <h2 className="pb-10 text-2xl font-bold text-center text-custorm-green md:text-3xl ">We Are Strategic</h2>
         </div>
 
         <div className="grid gap-5 md:grid-cols-2">
@@ -120,7 +120,7 @@ const Page = ({ fullHeight = false }) => {
             <div key={index} className="flex gap-6 p-5 border rounded shadow-lg bg-custorm-gray">
               <div>{value.icon}</div>
               <div>
-                <h3 className="pb-5 text-xl font-bold">{value.title}</h3>
+                <h3 className="pb-5 text-xl font-bold text-custorm-green">{value.title}</h3>
                 <p className="text-base">{value.description}</p>
               </div>
             </div>

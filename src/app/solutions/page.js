@@ -77,7 +77,7 @@ const Page = ({ fullHeight = false }) => {
         <div className="grid gap-5 md:grid-cols-2 md:items-center">
           <div>
             <p className="pb-5 text-base font-bold text-custorm-green">WHAT WE OFFER</p>
-            <h2 className="text-2xl font-bold md:text-3xl bg-custorm-black">
+            <h2 className="text-2xl font-bold text-custorm-green md:text-3xl bg-custorm-black">
               Developing solutions for the future.
             </h2>
           </div>
@@ -93,7 +93,7 @@ const Page = ({ fullHeight = false }) => {
               <div className="pb-5">
                 {solution.icon}
               </div>
-              <h3 className="pb-5 text-xl font-bold">{solution.title}</h3>
+              <h3 className="pb-5 text-xl font-bold text-custorm-green">{solution.title}</h3>
               <p className="pb-5 text-base">
                 {solution.description}
               </p>

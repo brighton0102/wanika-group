@@ -26,8 +26,8 @@ const solutionsData = [
 
 const Solutions = () => {
   return (
-    <section className="px-2 py-24 bg-custorm-gray md:px-8 lg:px-16 xl:px-52 2xl:px-56">
-      <h2 className="max-w-lg mx-auto text-2xl font-bold text-center md:text-3xl">
+    <section className="px-2 py-24 bg-dark-brown md:px-8 lg:px-16 xl:px-52 2xl:px-56">
+      <h2 className="max-w-lg mx-auto text-2xl font-bold text-center text-white md:text-3xl">
         Driving Financial Growth and Stability
       </h2>
       <div className="grid gap-5 pt-10 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">

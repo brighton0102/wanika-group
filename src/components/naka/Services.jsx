@@ -55,7 +55,7 @@ const Services = () => {
       <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3 lg:px-16">
         {services.map((service, index) => (
           <div key={index} className="truncate bg-white rounded-lg shadow-lg card">
-            <div className="relative w-full h-0 pt-[50%]">
+            <div className="relative w-full h-0 pt-[50%] overflow-hidden group">
               <Image
                 src={service.image}
                 alt={service.alt}
@@ -63,7 +63,7 @@ const Services = () => {
               />
             </div>
             <div className="p-5">
-              <h3 className="pb-5 text-xl font-bold">{service.title}</h3>
+              <h3 className="pb-5 text-xl font-bold text-custorm-pink">{service.title}</h3>
               <p className="overflow-hidden text-base text-wrap">
                 {service.description}
               </p>

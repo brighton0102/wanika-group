@@ -26,14 +26,14 @@ const services = [
 
 const Commercials = () => {
   return (
-    <section className="px-2 py-24 md:px-8 lg:px-16 xl:px-52 2xl:px-56">
+    <section className="px-2 py-24 bg-dark-brown md:px-8 lg:px-16 xl:px-52 2xl:px-56">
       <div className="items-center justify-center gap-5 md:flex">
         <div>
-          <p className="pb-5 text-lg font-bold md:text-base text-dark-brown">WHY CHOOSE US</p>
-          <h2 className="pb-5 text-2xl font-bold md:text-3xl">
+          <p className="pb-5 text-lg font-bold text-white md:text-base">WHY CHOOSE US</p>
+          <h2 className="pb-5 text-2xl font-bold text-white md:text-3xl">
             Innovative Secretarial Solutions for Your Business
           </h2>
-          <p className="pb-5 text-base">
+          <p className="pb-5 text-base text-white">
             Kikapu Financial Services provides leading secretarial solutions to enhance corporate governance, ensure compliance, and streamline regulatory processes. Partner with us to optimize efficiency and drive growth.
           </p>
         </div>
@@ -43,7 +43,7 @@ const Commercials = () => {
               <div className="pb-5">
                 {service.icon}
               </div>
-              <h3 className="pb-5 text-xl font-bold">{service.title}</h3>
+              <h3 className="pb-5 text-xl font-bold text-dark-brown">{service.title}</h3>
               <p className="text-base text-custorm-brown">
                 {service.description}
               </p>

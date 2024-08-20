@@ -26,14 +26,14 @@ const cardData = [
 
 const Commercials = () => {
   return (
-    <section className="px-2 py-24 md:px-8 lg:px-16 xl:px-52 2xl:px-56">
+    <section className="px-2 py-24 bg-dark-brown md:px-8 lg:px-16 xl:px-52 2xl:px-56">
       <div className="flex flex-col items-center justify-center gap-5 md:flex-row">
         <div>
-          <p className="pb-5 text-base font-bold text-dark-brown">WHY CHOOSE US</p>
-          <h2 className="pb-5 text-2xl font-bold md:text-3xl">
+          <p className="pb-5 text-base font-bold text-white">WHY CHOOSE US</p>
+          <h2 className="pb-5 text-2xl font-bold text-white md:text-3xl">
             Unlock High-Impact Investment Opportunities
           </h2>
-          <p className="text-base text-gray-500">
+          <p className="text-base text-white">
             Mopane Capital Ventures specializes in capital raising and structured finance, connecting investors with high-return opportunities and providing comprehensive due diligence.
           </p>
         </div>

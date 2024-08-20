@@ -83,7 +83,7 @@ const Page = ({ fullHeight = false }) => {
           </div>
           <div className="md:max-w-2xl">
             <p className="pt-5 pb-5 text-base font-bold md:pt-0 text-custorm-pink">WHO WE ARE</p>
-            <h3 className="pb-5 text-2xl font-bold md:text-3xl text-custorm-black">
+            <h3 className="pb-5 text-2xl font-bold text-custorm-pink md:text-3xl text-custorm-black">
               Crafting Unforgettable Events with Precision and Creativity
             </h3>
             <p className="p-4 pb-5 text-base italic border-l-4 bg-custorm-gray border-custorm-pink text-custorm-black">
@@ -107,20 +107,20 @@ const Page = ({ fullHeight = false }) => {
 
       {/* Company Values */}
       
-      <section className="px-2 py-24 bg-white md:px-8 lg:px-16 xl:px-52 2xl:px-56">
+      <section className="px-2 py-24 bg-custorm-pink md:px-8 lg:px-16 xl:px-52 2xl:px-56">
         <div>
-          <p className="pb-5 text-lg font-bold text-center md:text-base text-custorm-pink">OUR VALUES</p>
-          <h2 className="pb-10 text-2xl font-bold text-center md:text-3xl">We Are Strategic</h2>
+          <p className="pb-5 text-lg font-bold text-center md:text-base text-custorm-black">OUR VALUES</p>
+          <h2 className="pb-10 text-2xl font-bold text-center text-custorm-black md:text-3xl">We Are Strategic</h2>
         </div>
 
         <div className="grid gap-5 md:grid-cols-2">
           {companyValuesData.map((value, index) => (
-            <div key={index} className="flex gap-6 p-5 border rounded shadow-lg bg-custorm-gray">
+            <div key={index} className="flex gap-6 p-5 bg-white border rounded shadow-lg">
               <div>
                 {value.icon}
               </div>
               <div>
-                <h3 className="pb-5 text-xl font-bold">{value.title}</h3>
+                <h3 className="pb-5 text-xl font-bold text-custorm-pink">{value.title}</h3>
                 <p className="text-base">{value.description}</p>
               </div>
             </div>

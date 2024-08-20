@@ -26,7 +26,7 @@ const solutionsData = [
 
 const Solutions = () => {
   return (
-    <section className="px-2 py-24 bg-custorm-gray md:px-8 lg:px-16 xl:px-52 2xl:px-56">
+    <section className="px-2 py-24 bg-custorm-pink md:px-8 lg:px-16 xl:px-52 2xl:px-56">
       <div className="grid items-center gap-5 md:grid-cols-2">
         <div>
           <p className="pb-5 text-base font-bold text-custorm-pink">WHAT WE OFFER</p>
@@ -42,7 +42,7 @@ const Solutions = () => {
         {solutionsData.map((solution, index) => (
           <div key={index} className="p-6 transform transition duration-500 ease-in-out hover:translate-y-[-10px] bg-white shadow-lg rounded-xl">
             <div className="pb-5">{solution.icon}</div>
-            <h3 className="pb-5 text-xl font-bold">{solution.title}</h3>
+            <h3 className="pb-5 text-xl font-bold text-custorm-pink">{solution.title}</h3>
             <p className="text-base">{solution.description}</p>
           </div>
         ))}

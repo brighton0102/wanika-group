@@ -81,7 +81,7 @@ const Page = ({ fullHeight = false }) => {
           </div>
           <div className="md:max-w-2xl">
             <p className="pt-5 pb-5 text-base font-bold md:pt-0 text-dark-blue">ABOUT US</p>
-            <h2 className="pb-5 text-2xl font-bold md:text-3xl">
+            <h2 className="pb-5 text-2xl font-bold text-dark-blue md:text-3xl">
               Leading Experts in Bulk Commodities
             </h2>
             <p className="p-4 pb-5 text-base italic border-l-4 bg-custorm-gray border-dark-blue text-custorm-black">
@@ -102,10 +102,10 @@ const Page = ({ fullHeight = false }) => {
       <DiscoverMore />
       
       {/* Company Values */}
-      <section className="px-2 py-24 bg-white md:px-8 lg:px-16 xl:px-52 2xl:px-56">
+      <section className="px-2 py-24 bg-emarald md:px-8 lg:px-16 xl:px-52 2xl:px-56">
         <div>
           <p className="pb-5 text-base font-bold text-center text-dark-blue">OUR VALUES</p>
-          <h2 className="pb-10 text-2xl font-bold text-center md:text-3xl">We Are Strategic</h2>
+          <h2 className="pb-10 text-2xl font-bold text-center text-dark-blue md:text-3xl">We Are Strategic</h2>
         </div>
 
         <div className="grid gap-5 md:grid-cols-2">
@@ -115,7 +115,7 @@ const Page = ({ fullHeight = false }) => {
                 <value.icon className="p-2 text-5xl text-white rounded md:text-4xl bg-dark-blue" />
               </div>
               <div>
-                <h3 className="pb-5 text-xl font-bold">{value.title}</h3>
+                <h3 className="pb-5 text-xl font-bold text-dark-blue">{value.title}</h3>
                 <p className="text-base">{value.description}</p>
               </div>
             </div>

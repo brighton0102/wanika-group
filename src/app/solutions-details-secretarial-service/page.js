@@ -37,7 +37,7 @@ const page = ({ fullHeight = false }) => {
               <Image src={projectFinance} alt="kikapu" className="bg-cover" />
             </div>
             <div>
-              <h2 className="p-5 my-5 text-2xl font-bold border-l-2 border-gray-400 md:text-3xl">
+              <h2 className="p-5 my-5 text-2xl font-bold border-l-2 border-gray-400 text-custorm-green md:text-3xl">
                 Kikapu Financial Services
               </h2>
               <p className="pb-5 text-base">

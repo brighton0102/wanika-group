@@ -16,10 +16,10 @@ const AboutUs = () => {
           </div>
           <div className="md:max-w-2xl">
             <p className="pt-5 pb-5 text-base font-bold md:pt-0 text-custorm-yellow">WHO WE ARE</p>
-            <h2 className="pb-5 text-2xl font-bold md:text-3xl">
+            <h2 className="pb-5 text-2xl font-bold text-custorm-yellow md:text-3xl">
               Empowering Financial Inclusion and Growth
             </h2>
-            <p className="p-4 pb-5 text-base italic border-l-2 bg-custorm-gray border-custorm-yellow text-regal-blue">
+            <p className="p-4 pb-5 text-base italic border-l-2 bg-custorm-gray border-custorm-yellow text-custorm-black">
               Sekela Microfinance: Building strong foundations for Africa&apos;s dreams.
             </p>
             <p className="pt-5 pb-5 text-base text-gray-500">

@@ -27,11 +27,11 @@ const cardData = [
 
 const Solutions = () => {
   return (
-    <section className="px-2 py-24 bg-custorm-gray md:px-8 lg:px-16 xl:px-52 2xl:px-56">
+    <section className="px-2 py-24 bg-custorm-pink md:px-8 lg:px-16 xl:px-52 2xl:px-56">
       <div className="md:justify-between md:items-center md:flex">
         <div>
           <p className="pb-5 text-base font-bold text-custorm-yellow">OUR SOLUTIONS</p>
-          <h2 className="max-w-xl text-2xl font-bold md:text-3xl">
+          <h2 className="max-w-xl text-2xl font-bold text-custorm-yellow md:text-3xl">
             Solutions to Empower Financial Growth
           </h2>
         </div>
@@ -48,7 +48,7 @@ const Solutions = () => {
             <div className="pb-5">
               {card.icon}
             </div>
-            <h3 className="pb-5 text-xl font-bold">
+            <h3 className="pb-5 text-xl font-bold text-custorm-yellow">
               {card.title}
             </h3>
             <p className="text-base text-gray-500">

@@ -68,7 +68,7 @@ const page = ({ fullHeight = false }) => {
       </section>
 
       {/*About Us*/}
-      <section className="py-24">
+      <section className="py-24 bg-white">
       <div className="flex justify-center">
         <div className="grid px-2 md:items-center md:gap-16 md:grid-cols-2 md:px-8 lg:px-16 xl:px-52 2xl:px-56">
           <div className="flex justify-center">
@@ -85,7 +85,7 @@ const page = ({ fullHeight = false }) => {
             <h3 className="pb-5 text-2xl font-bold md:text-3xl">
               Premier Provider of Innovative Secretarial Solutions
             </h3>
-            <p className="p-4 text-base italic border-l-4 bg-pine-brown border-dark-brown text-regal-blue">
+            <p className="p-4 text-base italic border-l-4 bg-custorm-gray border-dark-brown text-custorm-black">
               Kikapu Financial Services offers top-tier secretarial solutions for Zimbabwean businesses, focusing on corporate governance, compliance, and regulatory adherence.
             </p>
             <p className="pt-5 pb-5 text-base text-gray-500">
@@ -103,19 +103,19 @@ const page = ({ fullHeight = false }) => {
       <DiscoverMore />
 
       {/*Company Values*/}
-      <section className="px-2 py-24 bg-white md:px-8 lg:px-16 xl:px-52 2xl:px-56">
+      <section className="px-2 py-24 bg-dark-brown md:px-8 lg:px-16 xl:px-52 2xl:px-56">
         <div>
-          <p className="pb-5 text-lg font-bold text-center md:text-base text-dark-brown">OUR VALUES</p>
-          <h2 className="pb-10 text-2xl font-bold text-center md:text-3xl">We Are Strategic</h2>
+          <p className="pb-5 text-lg font-bold text-center text-white md:text-base">OUR VALUES</p>
+          <h2 className="pb-10 text-2xl font-bold text-center text-white md:text-3xl">We Are Strategic</h2>
         </div>
         <div className="grid gap-5 md:grid-cols-2">
           {values.map((value, index) => (
-            <div key={index} className="flex gap-6 p-5 border rounded shadow-lg bg-custorm-gray">
+            <div key={index} className="flex gap-6 p-5 border rounded shadow-lg bg-pine-brown">
               <div>
                 {value.icon}
               </div>
               <div>
-                <h3 className="pb-5 text-xl font-bold">{value.title}</h3>
+                <h3 className="pb-5 text-xl font-bold text-dark-brown">{value.title}</h3>
                 <p className="text-base">{value.description}</p>
               </div>
             </div>

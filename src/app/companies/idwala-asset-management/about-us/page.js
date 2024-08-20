@@ -104,10 +104,10 @@ const page = ({ fullHeight = false }) => {
             <p className="pt-5 pb-5 text-base font-bold md:pt-0 text-dark-brown">
               ABOUT US
             </p>
-            <h2 className="pb-5 text-2xl font-bold md:text-3xl">
+            <h2 className="pb-5 text-2xl font-bold text-dark-brown md:text-3xl">
               Crafting Robust Financial Solutions with Precision
             </h2>
-            <p className="p-4 pb-5 text-base italic border-l-4 bg-pine-brown border-dark-brown text-custorm-black">
+            <p className="p-4 pb-5 text-base italic border-l-4 bg-custorm-gray border-dark-brown text-custorm-black">
               At Idwala Asset Management, we build solid financial foundations with expertise and integrity.
             </p>
             <p className="pt-5 mb-5 text-base text-gray-500">
@@ -127,7 +127,7 @@ const page = ({ fullHeight = false }) => {
           <p className="pb-5 text-base font-bold text-center text-dark-brown">
             OUR VALUES
           </p>
-          <h2 className="pb-10 text-2xl font-bold text-center md:text-3xl">
+          <h2 className="pb-10 text-2xl font-bold text-center text-dark-brown md:text-3xl">
             We Are Strategic
           </h2>
         </div>
@@ -140,7 +140,7 @@ const page = ({ fullHeight = false }) => {
             >
               <div>{card.icon}</div>
               <div>
-                <h3 className="pb-5 text-xl font-bold">{card.title}</h3>
+                <h3 className="pb-5 text-xl font-bold text-dark-brown">{card.title}</h3>
                 <p className="text-base">{card.description}</p>
               </div>
             </div>

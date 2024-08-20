@@ -40,18 +40,18 @@ const cardData = [
 
 const Solutions = () => {
   return (
-    <section className="px-2 py-24 bg-custorm-gray md:px-8 lg:px-16 xl:px-52 2xl:px-56">
+    <section className="px-2 py-24 bg-dark-brown md:px-8 lg:px-16 xl:px-52 2xl:px-56">
       <div className="grid gap-5 md:grid-cols-2">
         <div>
-          <p className="pb-5 text-base font-bold text-dark-brown">
+          <p className="pb-5 text-base font-bold text-white">
             WHAT WE OFFER
           </p>
-          <h2 className="text-2xl font-bold md:text-3xl">
+          <h2 className="text-2xl font-bold text-white md:text-3xl">
             Delivering precision and clarity in secretarial services.
           </h2>
         </div>
         <div>
-          <p className="pb-5 text-base">
+          <p className="pb-5 text-base text-white">
             At Kikapu Financial Services, we specialize in corporate governance, compliance, and regulatory adherence. Our expertise ensures that your business operates smoothly and within legal frameworks, promoting organizational success and sustainable growth.
           </p>
         </div>
@@ -60,7 +60,7 @@ const Solutions = () => {
         {cardData.map((card, index) => (
           <div key={index} className="p-6 transform transition duration-500 ease-in-out hover:translate-y-[-10px] shadow-lg bg-pine-brown rounded-xl">
             <div className="pb-5">{card.icon}</div>
-            <h3 className="pb-5 text-xl font-bold">{card.title}</h3>
+            <h3 className="pb-5 text-xl font-bold text-dark-brown">{card.title}</h3>
             <p className="text-base text-custorm-brown">
               {card.description}
             </p>

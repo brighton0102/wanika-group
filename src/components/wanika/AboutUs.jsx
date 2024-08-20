@@ -22,7 +22,7 @@ const CompanyIntro = () => {
               <p className="pt-5 pb-5 text-base font-bold md:pt-0 text-custorm-green">
                 WHO WE ARE
               </p>
-              <h2 className="pb-5 text-2xl font-bold md:text-3xl text-custorm-black">
+              <h2 className="pb-5 text-2xl font-bold md:text-3xl text-custorm-green">
                 Discover Innovation and Value with Wanika Group
               </h2>
               <p className="p-5 text-base italic border-l-4 bg-custorm-gray border-custorm-green text-regal-blue">

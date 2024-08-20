@@ -73,7 +73,7 @@ const Services = () => {
               />
             </div>
             <div className="p-5">
-              <h3 className="pb-5 text-xl font-bold">{card.title}</h3>
+              <h3 className="pb-5 text-xl font-bold text-custorm-yellow">{card.title}</h3>
               <p className="overflow-hidden text-base text-wrap">
                 {card.description}
               </p>

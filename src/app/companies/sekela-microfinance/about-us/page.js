@@ -103,10 +103,10 @@ const page = ({ fullHeight = false }) => {
         <p className="pt-5 pb-5 text-base font-bold md:pt-0 text-custorm-yellow">
           WHO WE ARE
         </p>
-        <h2 className="pb-5 text-2xl font-bold md:text-3xl">
+        <h2 className="pb-5 text-2xl font-bold text-custorm-yellow md:text-3xl">
           Empowering Dreams with Financial Inclusion and Growth
         </h2>
-        <p className="p-4 pb-5 text-base italic border-l-2 bg-custorm-gray border-custorm-yellow text-regal-blue">
+        <p className="p-4 pb-5 text-base italic border-l-2 bg-custorm-gray border-custorm-yellow text-custorm-black">
           &quot;Sekela,&quot; meaning &quot;foundation&quot; in Zulu, symbolizes our commitment to providing a strong base for Africa’s ambitious dreams.
         </p>
         <p className="pt-5 text-base text-gray-500">
@@ -127,12 +127,12 @@ const page = ({ fullHeight = false }) => {
 
       {/*Company Values*/}
 
-      <section className="px-2 py-24 bg-white md:px-8 lg:px-16 xl:px-52 2xl:px-56">
+      <section className="px-2 py-24 bg-custorm-pink md:px-8 lg:px-16 xl:px-52 2xl:px-56">
         <div>
           <p className="pb-5 text-base font-bold text-center text-custorm-yellow">
             OUR VALUES
           </p>
-          <h2 className="pb-10 text-2xl font-bold text-center md:text-3xl">
+          <h2 className="pb-10 text-2xl font-bold text-center text-custorm-yellow md:text-3xl">
             We Are Strategic
           </h2>
         </div>
@@ -145,7 +145,7 @@ const page = ({ fullHeight = false }) => {
             >
               <div>{card.icon}</div>
               <div>
-                <h3 className="pb-5 text-xl font-bold">{card.title}</h3>
+                <h3 className="pb-5 text-xl font-bold text-custorm-yellow">{card.title}</h3>
                 <p className="text-base">{card.description}</p>
               </div>
             </div>

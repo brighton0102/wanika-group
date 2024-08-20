@@ -36,7 +36,7 @@ const page = ({ fullHeight = false }) => {
               <Image src={maize} alt="commodity trading" className="bg-cover" />
             </div>
             <div>
-              <h2 className="p-5 my-5 text-2xl font-bold border-l-2 border-gray-400 md:text-3xl">
+              <h2 className="p-5 my-5 text-2xl font-bold border-l-2 border-gray-400 text-custorm-green md:text-3xl">
                 Watata Commodities
               </h2>
               <p className="text-base ">

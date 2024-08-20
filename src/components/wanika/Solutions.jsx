@@ -39,7 +39,7 @@ const Solutions = () => {
         <div className="items-center md:gap-5 md:grid-cols-2 md:grid">
           <div>
             <p className="pb-5 text-base font-bold text-custorm-green">WHAT WE OFFER</p>
-            <h2 className="pb-5 text-2xl font-bold md:text-3xl text-custorm-black">
+            <h2 className="pb-5 text-2xl font-bold text-custorm-green md:text-3xl text-custorm-black">
               Developing solutions for the future.
             </h2>
           </div>
@@ -61,7 +61,7 @@ const Solutions = () => {
               <div className="pb-5">
                 <card.icon className="p-2 text-5xl text-white rounded md:text-4xl bg-custorm-green" />
               </div>
-              <h3 className="pb-5 text-xl font-bold">{card.title}</h3>
+              <h3 className="pb-5 text-xl font-bold text-custorm-green">{card.title}</h3>
               <p className="pb-5 text-base">
                 {card.description}
               </p>

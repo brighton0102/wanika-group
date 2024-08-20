@@ -30,7 +30,11 @@ module.exports = {
         "dark-blue": "#1f4978",
         "dark-brown": "#412315",
         "light-black": "#181b1b",
-        "pine-brown": "#EEE1D5"
+        "pine-brown": "#EEE1D5",
+        "emarald": "#9febaa",
+        "light-blue": "#3dc2ed",
+        "coffee-brown": "#a48a63",
+        "leafy-green": "#2ad495"
       },
       width: {
         w400: "400px",

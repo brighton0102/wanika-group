@@ -15,7 +15,7 @@ const Hero = () => {
       />
       <div className="absolute top-0 left-0 w-full h-full bg-[#000000] opacity-40 z-5"></div>
       <div className="relative z-10 items-center px-2 pt-8 md:px-8 lg:px-16 md:max-w-3xl xl:px-52 2xl:px-56 xl:max-w-5xl">
-        <p className="pb-5 text-base font-bold text-center text-white md:text-left">
+        <p className="pb-5 text-base font-bold text-center text-dark-brown md:text-left">
           YOUR TRUSTED FINANCE PARTNER
         </p>
         <h1 className="pb-5 text-3xl font-bold leading-snug text-center text-white md:text-left">

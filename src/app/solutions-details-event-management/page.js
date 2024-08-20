@@ -37,7 +37,7 @@ const page = ({ fullHeight = false }) => {
               <Image src={naka06} alt="event management" className="bg-cover" />
             </div>
             <div>
-              <h2 className="p-5 my-5 text-2xl font-bold border-l-2 border-gray-400 md:text-3xl">
+              <h2 className="p-5 my-5 text-2xl font-bold border-l-2 border-gray-400 text-custorm-green md:text-3xl">
                 Naka Events Management
               </h2>
               <p className="text-base ">

@@ -4,7 +4,7 @@ import kikapu03 from "@/assets/images/kikapu03.jpeg";
 
 const AboutUs = () => {
   return (
-    <section className="py-24">
+    <section className="py-24 bg-white">
       <div className="flex justify-center">
         <div className="grid items-center px-2 md:grid-cols-2 md:gap-16 md:px-8 lg:px-16 xl:px-52 2xl:px-56">
           <div className="flex justify-center">
@@ -17,11 +17,11 @@ const AboutUs = () => {
             />
           </div>
           <div className="md:max-w-2xl">
-            <p className="pt-5 pb-5 text-base font-bold md:pt-0 text-dark-brown">WHO WE ARE</p>
-            <h2 className="pb-5 text-2xl font-bold md:text-3xl">
+            <p className="pt-5 pb-5 text-base font-bold text-dark-brown md:pt-0">WHO WE ARE</p>
+            <h2 className="pb-5 text-2xl font-bold text-dark-brown md:text-3xl">
               Delivering Precision in Secretarial Solutions
             </h2>
-            <p className="p-4 text-base italic border-l-4 bg-pine-brown border-dark-brown text-regal-blue">
+            <p className="p-4 text-base italic border-l-4 bg-custorm-gray border-dark-brown text-custorm-black">
             Kikapu Financial Services is dedicated to providing top-notch secretarial solutions that drive organizational success and ensure regulatory compliance.
             </p>
             <p className="pt-5 pb-5 text-base text-gray-500">

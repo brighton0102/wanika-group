@@ -54,12 +54,12 @@ const services = [
 
 const Services = () => {
   return (
-    <section className="px-2 py-24 bg-white md:px-8 lg:px-16 xl:px-52 2xl:px-56">
-      <h2 className="pb-10 text-2xl font-bold text-center text-dark-brown md:text-3xl">OUR SERVICES</h2>
+    <section className="px-2 py-24 bg-custorm-gray md:px-8 lg:px-16 xl:px-52 2xl:px-56">
+      <h2 className="pb-10 text-2xl font-bold text-center text-dark-brown text-darkbrown md:text-3xl">OUR SERVICES</h2>
       <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
         {services.map((service, index) => (
           <div key={index} className="truncate rounded-lg card bg-pine-brown">
-            <div className="relative w-full h-0 pt-[50%]">
+            <div className="relative w-full h-0 pt-[50%] overflow-hidden group">
               <Image
                 src={service.src}
                 alt={service.alt}
@@ -67,7 +67,7 @@ const Services = () => {
               />
             </div>
             <div className="p-5">
-              <h3 className="pb-5 text-xl font-bold">{service.title}</h3>
+              <h3 className="pb-5 text-xl font-bold text-dark-brown">{service.title}</h3>
               <p className="overflow-hidden text-base text-wrap">
                 {service.description}
               </p>

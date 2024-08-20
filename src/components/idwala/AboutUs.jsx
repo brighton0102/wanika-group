@@ -17,11 +17,11 @@ const AboutUs = () => {
             />
           </div>
           <div className="md:max-w-2xl">
-            <p className="pt-5 pb-5 text-base font-bold md:pt-0 text-dark-brown">ABOUT US</p>
-            <h2 className="pb-5 text-2xl font-bold md:text-3xl">
+            <p className="pt-5 pb-5 text-base font-bold text-dark-brown md:pt-0">ABOUT US</p>
+            <h2 className="pb-5 text-2xl font-bold text-dark-brown md:text-3xl">
               Idwala Asset Management: Building Wealth with Granite-Like Strength
             </h2>
-            <p className="p-4 pb-5 text-base italic border-l-4 bg-pine-brown border-dark-brown text-custorm-black">
+            <p className="p-4 pb-5 text-base italic border-l-4 bg-custorm-gray border-dark-brown text-custorm-black">
               Inspired by the resilience of granite, we deliver tailored investment solutions and wealth management strategies.
             </p>
             <p className="pt-5 pb-5 text-base text-gray-500">
