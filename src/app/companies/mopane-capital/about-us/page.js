@@ -8,6 +8,7 @@ import { SlGraph } from "react-icons/sl";
 import { SlChart } from "react-icons/sl";
 import { SlDiamond } from "react-icons/sl";
 import { SlBriefcase } from "react-icons/sl";
+import Navbar from "@/components/mopane/Navbar";
 
 export const metadata = {
   title: {
@@ -69,6 +70,8 @@ const valuesData = [
 const Page = ({ fullHeight = false }) => {
   return (
     <>
+      
+      <Navbar />
       <section
         className="relative w-full overflow-hidden pt-60"
         style={{ height: fullHeight ? "100vh" : "50vh" }}

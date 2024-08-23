@@ -3,6 +3,7 @@ import adeolu from "@/assets/images/adeolu.jpg";
 import { FiUsers } from "react-icons/fi";
 import { SlDiamond, SlBriefcase, SlGraph, SlGlobe, SlChart } from "react-icons/sl";
 import Link from "next/link";
+import Navbar from "@/components/wanika/Navbar";
 
 export const metadata = {
   title: {
@@ -53,6 +54,7 @@ const solutions = [
 const Page = ({ fullHeight = false }) => {
   return (
     <>
+      <Navbar />
       <section
         className="relative w-full overflow-hidden pt-60"
         style={{ height: fullHeight ? "100vh" : "50vh" }}

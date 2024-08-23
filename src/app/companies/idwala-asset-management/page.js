@@ -6,6 +6,7 @@ import ConsultationBanner from "@/components/idwala/ConsultationBanner";
 import Services from "@/components/idwala/Services";
 import DiscoverMore from "@/components/idwala/DiscoverMore";
 import Commercials from "@/components/idwala/Commercials";
+import Navbar from "@/components/idwala/Navbar";
 
 
 export const metadata = {
@@ -19,6 +20,7 @@ export const metadata = {
 const page = () => {
   return (
     <>
+      <Navbar />
       <Hero />
       <AboutUs />
       <Solutions />

@@ -5,6 +5,7 @@ import ConsultationBanner from "@/components/mopane/ConsultationBanner";
 import Services from "@/components/mopane/Services";
 import DiscoverMore from "@/components/mopane/DiscoverMore";
 import Commercials from "@/components/mopane/Commercials";
+import Navbar from "@/components/mopane/Navbar";
 
 export const metadata = {
   title: {
@@ -17,6 +18,7 @@ export const metadata = {
 const page = () => {
   return (
     <>
+      <Navbar/>
       <Hero />
       <AboutUs />
       <Solutions />

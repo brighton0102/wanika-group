@@ -4,6 +4,7 @@ import hero from "@/assets/images/hero.webp";
 import { FiUsers } from "react-icons/fi";
 import { SlDiamond, SlBriefcase, SlGraph, SlGlobe, SlChart } from "react-icons/sl";
 import DiscoverMore from "@/components/wanika/DiscoverMore";
+import Navbar from "@/components/wanika/Navbar";
 
 export const metadata = {
   title: {
@@ -49,6 +50,7 @@ const values = [
 const Page = ({ fullHeight = false }) => {
   return (
     <>
+      <Navbar />
       <section
         className="relative w-full overflow-hidden pt-60"
         style={{ height: fullHeight ? "100vh" : "50vh" }}

@@ -2,10 +2,12 @@ import Image from "next/image";
 import medienSturmer from "@/assets/images/mediensturmer.jpg";
 import { BsDot } from "react-icons/bs";
 import SolutionsLinks from "@/components/solutions/SolutionsLinks";
+import Navbar from "@/components/wanika/Navbar";
 
 const page = ({ fullHeight = false }) => {
   return (
     <>
+      <Navbar />
       <section
         className="relative w-full overflow-hidden pt-60"
         style={{ height: fullHeight ? "100vh" : "50vh" }}

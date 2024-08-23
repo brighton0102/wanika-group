@@ -5,6 +5,7 @@ import ConsultationBanner from "@/components/watata/ConsultationBanner";
 import Services from "@/components/watata/Services";
 import DiscoverMore from "@/components/watata/DiscoverMore";
 import Commercials from "@/components/watata/Commercials";
+import Navbar from "@/components/watata/Navbar";
 
 export const metadata = {
   title: {
@@ -16,6 +17,7 @@ export const metadata = {
 const page = () => {
   return (
     <>
+      <Navbar />
       <Hero />
       <AboutUs />
       <Solutions />

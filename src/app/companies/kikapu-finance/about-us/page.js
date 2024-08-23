@@ -4,6 +4,7 @@ import kikapu03 from "@/assets/images/kikapu03.jpeg";
 import { FiUsers } from "react-icons/fi";
 import { SlDiamond, SlBriefcase, SlGraph, SlGlobe, SlChart } from "react-icons/sl";
 import DiscoverMore from "@/components/kikapu/DiscoverMore";
+import Navbar from "@/components/kikapu/Navbar";
 
 export const metadata = {
   title: {
@@ -48,6 +49,8 @@ const values = [
 const page = ({ fullHeight = false }) => {
   return (
     <>
+      
+      <Navbar />
       <section
         className="relative w-full overflow-hidden pt-60"
         style={{ height: fullHeight ? "100vh" : "50vh" }}

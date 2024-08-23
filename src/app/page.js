@@ -6,10 +6,12 @@ import DiscoverMore from "@/components/wanika/DiscoverMore";
 import ConsultationBanner from "@/components/wanika/ConsultationBanner";
 import "./globals.css";
 import Hero from "@/components/wanika/Hero";
+import Navbar from "@/components/wanika/Navbar";
 
 export default function Home() {
   return (
     <div className="w-full min-h-screen ">
+      <Navbar />
       <Hero />
       <AboutUs />
       <Solutions />

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import pebbles from "@/assets/images/pebbles.jpg";
+import strategicPlan from "@/assets/images/strategic-plan.jpeg";
 
 const AboutUs = () => {
   return (
@@ -10,7 +10,7 @@ const AboutUs = () => {
           <div className="flex justify-center">
             <Image
               className="object-cover w-full h-full rounded-lg"
-              src={pebbles}
+              src={strategicPlan}
               width={600}
               height={500}
               alt="boulder"

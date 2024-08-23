@@ -1,6 +1,6 @@
 import Image from "next/image";
 import jeremy from "@/assets/images/jeremy.jpg";
-import pebbles from "@/assets/images/pebbles.jpg";
+import strategicPlan from "@/assets/images/strategic-plan.jpeg";
 import { FiUsers } from "react-icons/fi";
 import { SlDiamond } from "react-icons/sl";
 import { SlBriefcase } from "react-icons/sl";
@@ -8,6 +8,7 @@ import { SlGraph } from "react-icons/sl";
 import { SlGlobe } from "react-icons/sl";
 import { SlChart } from "react-icons/sl";
 import DiscoverMore from "@/components/idwala/DiscoverMore";
+import Navbar from "@/components/idwala/Navbar";
 
 export const metadata = {
   title: {
@@ -65,6 +66,8 @@ const cardData = [
 const page = ({ fullHeight = false }) => {
   return (
     <>
+      
+      <Navbar />
       <section
         className="relative w-full overflow-hidden pt-60"
         style={{ height: fullHeight ? "100vh" : "50vh" }}
@@ -94,7 +97,7 @@ const page = ({ fullHeight = false }) => {
           <div className="flex justify-center">
             <Image
               className="object-cover w-full h-full rounded-lg"
-              src={pebbles}
+              src={strategicPlan}
               width={600}
               height={500}
               alt="Granite Symbolism"

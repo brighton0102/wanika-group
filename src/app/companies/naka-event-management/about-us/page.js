@@ -4,6 +4,7 @@ import naka03 from "@/assets/images/naka03.jpg";
 import { FiUsers } from "react-icons/fi";
 import { SlDiamond, SlBriefcase, SlGraph, SlGlobe, SlChart } from "react-icons/sl";
 import DiscoverMore from "@/components/naka/DiscoverMore";
+import Navbar from "@/components/naka/Navbar";
 
 export const metadata = {
   title: {
@@ -48,6 +49,8 @@ const companyValuesData = [
 const Page = ({ fullHeight = false }) => {
   return (
     <>
+      
+      <Navbar />
       <section
         className="relative w-full overflow-hidden pt-60"
         style={{ height: fullHeight ? "100vh" : "50vh" }}

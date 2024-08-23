@@ -8,6 +8,7 @@ import { SlGlobe } from "react-icons/sl";
 import { SlChart } from "react-icons/sl";
 import sekela from "@/assets/images/sekela02.jpg";
 import DiscoverMore from "@/components/sekela/DiscoverMore";
+import Navbar from "@/components/sekela/Navbar";
 
 
 export const metadata = {
@@ -66,6 +67,7 @@ const cardData = [
 const page = ({ fullHeight = false }) => {
   return (
     <>
+      <Navbar />
       <section
         className="relative w-full overflow-hidden pt-60"
         style={{ height: fullHeight ? "100vh" : "50vh" }}

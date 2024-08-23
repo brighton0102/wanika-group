@@ -4,6 +4,7 @@ import seeds from "@/assets/images/seeds.jpeg";
 import { FiUsers } from "react-icons/fi";
 import { SlDiamond, SlBriefcase, SlGraph, SlGlobe, SlChart } from "react-icons/sl";
 import DiscoverMore from "@/components/watata/DiscoverMore";
+import Navbar from "@/components/watata/Navbar";
 
 export const metadata = {
   title: {
@@ -47,6 +48,7 @@ const valuesData = [
 const Page = ({ fullHeight = false }) => {
   return (
     <>
+      <Navbar />
       <section
         className="relative w-full overflow-hidden pt-60"
         style={{ height: fullHeight ? "100vh" : "50vh" }}

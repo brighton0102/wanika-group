@@ -2,6 +2,7 @@
 import Image from "next/image";
 import adeolu from "@/assets/images/adeolu.jpg";
 import ContactForm from "./ContactForm";
+import Navbar from "@/components/wanika/Navbar";
 
 export const metadata = {
   title: {
@@ -15,6 +16,7 @@ export default function ContactPage({ fullHeight = false }) {
  
   return (
     <>
+      <Navbar />
       <section
         className="relative w-full overflow-hidden pt-60"
         style={{ height: fullHeight ? "100vh" : "50vh" }}
