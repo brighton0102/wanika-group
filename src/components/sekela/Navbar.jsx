@@ -55,7 +55,7 @@ export default function Navbar() {
               src={sekelaLogo}
               alt="Website logo"
               width={100}
-              height={30}
+              height={60}
               className="object-contain"
             />
           </Link>

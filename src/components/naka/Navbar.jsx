@@ -55,7 +55,7 @@ export default function Navbar() {
               src={nakaLogo}
               alt="Website logo"
               width={170}
-              height={160}
+              height={60}
               className="object-contain py-4"
             />
           </Link>

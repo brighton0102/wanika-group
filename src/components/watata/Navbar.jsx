@@ -55,7 +55,7 @@ export default function Navbar() {
               src={watataLogo}
               alt="Website logo"
               width={300}
-              height={280}
+              height={60}
               className="object-contain"
             />
           </Link>

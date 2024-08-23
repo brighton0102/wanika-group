@@ -55,7 +55,7 @@ export default function Navbar() {
               src={kikapuLogo}
               alt="Website logo"
               width={135}
-              height={120}
+              height={60}
               className="object-contain"
             />
           </Link>

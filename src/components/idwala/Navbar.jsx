@@ -55,7 +55,7 @@ export default function Navbar() {
               src={idwalaLogo}
               alt="Website logo"
               width={170}
-              height={160}
+              height={60}
               className="object-contain"
             />
           </Link>
