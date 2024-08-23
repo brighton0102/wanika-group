@@ -57,7 +57,7 @@ const Services = () => {
       <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3 lx:grid-cols-4">
         {cardData.map((card, index) => (
           <div key={index} className="truncate bg-white rounded-lg shadow-lg card">
-            <div className="relative w-full h-0 pt-[50%]">
+            <div className="relative w-full h-0 pt-[50%] overflow-hidden group">
               <Image
                 src={card.image}
                 alt={card.alt}
