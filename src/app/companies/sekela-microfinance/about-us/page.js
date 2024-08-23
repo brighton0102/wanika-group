@@ -1,5 +1,5 @@
 import Image from "next/image";
-import smile from "@/assets/images/smile.jpg";
+import sekela18 from "@/assets/images/sekela18.jpg";
 import { FiUsers } from "react-icons/fi";
 import { SlDiamond } from "react-icons/sl";
 import { SlBriefcase } from "react-icons/sl";
@@ -73,14 +73,14 @@ const page = ({ fullHeight = false }) => {
         style={{ height: fullHeight ? "100vh" : "50vh" }}
       >
         <Image
-          src={smile}
+          src={sekela18}
           alt="Exploration Background"
           layout="fill"
           objectFit="cover"
           quality={100}
           className="absolute z-0"
         />
-        <div className="absolute top-0 left-0 w-full h-full bg-[#fcc10b] opacity-30 z-5"></div>
+        <div className="absolute top-0 left-0 w-full h-full bg-[#fcc10b] opacity-20 z-5"></div>
         <div className="relative z-10 items-center px-2 pt-8 md:px-8 lg:px-16 xl:px-52 2xl:px-56">
           <p className="text-base text-white">
             sekela-microfinance/about-us
