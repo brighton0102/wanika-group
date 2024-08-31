@@ -49,7 +49,7 @@ const SolutionsLinks = () => {
 
       <div className="p-10 mt-4 bg-custorm-green">
         <h2 className="pb-8 text-4xl font-bold text-center text-white">
-          Contact with us for any advice
+          Contact us for any advice
         </h2>
         <div>
           <TbPhoneCall className="mx-auto text-white text-7xl" />
@@ -58,7 +58,7 @@ const SolutionsLinks = () => {
           Need help? Talk to an expert
         </p>
         <p className="text-2xl font-bold text-center text-white">
-        +263 (0)636 4222
+        +263 77 448 5320
         </p>
       </div>
     </div>

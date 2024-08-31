@@ -132,8 +132,9 @@ const Footer = () => {
             <p className="pb-4 text-base text-white">
               71 Glenara Ave, Highlands, Harare
             </p>
-            <p className="pb-4 text-base text-white">+263 (0)636 4222</p>
+            <p className="pb-4 text-base text-white">+263 77 448 5320</p>
             <p className="pb-4 text-base text-white">www.wanikagroup.net</p>
+            <p className="pb-4 text-base text-white">elton.chitondo@outlook.com</p>
           </div>
         </div>
       </div>

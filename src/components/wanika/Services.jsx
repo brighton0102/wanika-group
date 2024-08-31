@@ -13,7 +13,7 @@ const servicesData = [
     "alt": "consultancy",
     "title": "Mopane Consultancy Services",
     "description": "Experts in structured finance and value-based consultancy, co-creating tailored solutions to enhance business resilience and long-term sustainability.",
-    "link": "/companies/mopane-consultancy"
+    "link": "/companies/mopane-capital"
   },
   
   {
